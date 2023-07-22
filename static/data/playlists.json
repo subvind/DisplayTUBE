@@ -1,0 +1,655 @@
+{
+  "kind": "youtube#playlistListResponse",
+  "etag": "Oel81TRbufUmm7QwdL8LNFZv9qA",
+  "pageInfo": {
+    "totalResults": 15,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#playlist",
+      "etag": "lHEp_hHpQfkCM0JnrERInlprlE0",
+      "id": "PLtoxeJ0aVT65WglaX_7xgHPMW-XvgTz1E",
+      "snippet": {
+        "publishedAt": "2023-07-17T15:07:24Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "flow based programming",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2XrYd1W5GLo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2XrYd1W5GLo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2XrYd1W5GLo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2XrYd1W5GLo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "flow based programming",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 3
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "AHtTS-oFaRd80GZHVgAx0QLcK3I",
+      "id": "PLtoxeJ0aVT6705WjpXjV1y-WO_l3sUnR5",
+      "snippet": {
+        "publishedAt": "2023-07-14T17:27:35Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "message queue",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "message queue",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 2
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "rsFNmlmS3YfdJbpQAEUSmFjAngo",
+      "id": "PLtoxeJ0aVT66OUKJxGlLOo_OK2I2FL4oS",
+      "snippet": {
+        "publishedAt": "2023-07-07T19:38:30Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "inomscript",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l-jMsoAY64k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l-jMsoAY64k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l-jMsoAY64k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/l-jMsoAY64k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/l-jMsoAY64k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "inomscript",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 1
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "6KBKM-UmndUc71QNMXNaGsKN25Y",
+      "id": "PLtoxeJ0aVT67p3i-nUKoyL-n9m9KOFtWo",
+      "snippet": {
+        "publishedAt": "2023-06-27T22:23:18Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "logic",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/73AUBVOW-sM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/73AUBVOW-sM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/73AUBVOW-sM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/73AUBVOW-sM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "logic",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 1
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "60dMmuI2VY3FHXVYkIdyD984biE",
+      "id": "PLtoxeJ0aVT67pzPlrvNVfPedtJv4vPBOj",
+      "snippet": {
+        "publishedAt": "2023-06-24T16:41:39Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "rust macro",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/crWfcA064is/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/crWfcA064is/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/crWfcA064is/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/crWfcA064is/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/crWfcA064is/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "rust macro",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 3
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "RYt-P6akKJRVqP5MLCCaE1KsU8Y",
+      "id": "PLtoxeJ0aVT65O6h4J_qDsWbOIY43ofvg1",
+      "snippet": {
+        "publishedAt": "2023-01-13T23:45:59Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "dance",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4BIQvdIppyk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4BIQvdIppyk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4BIQvdIppyk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4BIQvdIppyk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4BIQvdIppyk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "dance",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 4
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "vn91Ibqae2WGE0Mv80eQCi__1to",
+      "id": "PLtoxeJ0aVT65p7yjtDUPuOLFgZ71YbkKf",
+      "snippet": {
+        "publishedAt": "2023-01-04T17:23:50Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "drugs",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EVGdmE4_h4c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EVGdmE4_h4c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EVGdmE4_h4c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EVGdmE4_h4c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EVGdmE4_h4c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "drugs",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 14
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "Ehu666hFBxH_6KYXt61H-ZVHovY",
+      "id": "PLtoxeJ0aVT66PItrb9U33t6BM1z4KxL2-",
+      "snippet": {
+        "publishedAt": "2023-01-03T00:27:35Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "construction",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/--DgJSxkY90/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/--DgJSxkY90/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/--DgJSxkY90/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/--DgJSxkY90/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/--DgJSxkY90/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "construction",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 3
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "wgoq3pEOKi3WQm4xVxVLmpOy_XA",
+      "id": "PLtoxeJ0aVT64nNSz7QnXp8G21nppHVLTB",
+      "snippet": {
+        "publishedAt": "2022-12-22T10:07:50Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "MilitaryWarfare",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EjJDncuflrM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EjJDncuflrM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EjJDncuflrM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "MilitaryWarfare",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 9
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "4ACCvLPSvD21rFCvsy8JM0evWfY",
+      "id": "PLtoxeJ0aVT65LWfUK6YRg0D8tHSNK1gtT",
+      "snippet": {
+        "publishedAt": "2022-12-14T04:33:22Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "1 + 1",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H-4mvK2FW78/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H-4mvK2FW78/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H-4mvK2FW78/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/H-4mvK2FW78/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/H-4mvK2FW78/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "1 + 1",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 2
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "ipozmN7qzwVFDwSOdywkC3yc0Nw",
+      "id": "PLtoxeJ0aVT670BoNcI9x70HeKixrgoQ2Y",
+      "snippet": {
+        "publishedAt": "2022-12-12T23:08:33Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "red tape",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CA1PdP9USNg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CA1PdP9USNg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CA1PdP9USNg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "red tape",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 7
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "pkaXBxyGTzxMTZvJK42DV09fISc",
+      "id": "PLtoxeJ0aVT65ttbULyskL3U-O9ugmNKiO",
+      "snippet": {
+        "publishedAt": "2022-12-09T17:45:07Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "TypeScript",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SwsrqXmNeCY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SwsrqXmNeCY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SwsrqXmNeCY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SwsrqXmNeCY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SwsrqXmNeCY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "TypeScript",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 5
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "pJ5iVYqsNBoj1Dw-rWXu66xOvHE",
+      "id": "PLtoxeJ0aVT66lQb1SDTYGwRvT8y9vIDLP",
+      "snippet": {
+        "publishedAt": "2022-12-09T16:45:56Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "freemason",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qYslzPoWEPs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qYslzPoWEPs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qYslzPoWEPs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/qYslzPoWEPs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/qYslzPoWEPs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "freemason",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 4
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "vj6U-EfWEuhvu4Ayxpi3Nx8Zdjo",
+      "id": "PLtoxeJ0aVT64Iisp8yIKsuUQi6ZJVV0OT",
+      "snippet": {
+        "publishedAt": "2022-11-30T20:42:11Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "water",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m5WodTppevo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m5WodTppevo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m5WodTppevo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/m5WodTppevo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "water",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 5
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "iz9rTrVZyLCnMQi-aI-iKTfZ2lc",
+      "id": "PLtoxeJ0aVT66PjdmRzdCKZJV7OsnUFbNi",
+      "snippet": {
+        "publishedAt": "2017-01-05T13:16:46Z",
+        "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+        "title": "RABBIT",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "subvind",
+        "localized": {
+          "title": "RABBIT",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 5
+      }
+    }
+  ]
+}
