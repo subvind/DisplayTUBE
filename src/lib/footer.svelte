@@ -1,6 +1,5 @@
 <script lang="ts">
   // Date object
-
   let date: any = new Date();
   const options: any = {
     weekday: 'long',
@@ -15,11 +14,9 @@
   setInterval(() => {
     date = new Date();
   }, 1000)
-
 </script>
 
 <div class="container">
-  <br />
   <hr>
   <br />
   <span style="float: right;">{date.toLocaleString('en-IN', options)}</span>

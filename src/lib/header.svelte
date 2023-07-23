@@ -22,7 +22,7 @@
   </div>
   <div class="container">
     {#if channel}
-      <img src={channel.snippet.thumbnails.medium.url} alt="" class="avatar">
+      <a href="/"><img src={channel.snippet.thumbnails.medium.url} alt="" class="avatar"></a>
       <a href={`https://youtube.com/${channel.snippet.customUrl}`} target="_blank"><button class="navigation">SUBSCRIBE</button></a>
       <a href="/live-now"><button class="navigation">LIVE NOW</button></a>
 
@@ -74,6 +74,7 @@
   .banner {
     width: 100%;
     height: 400px;
+    min-width: 938px;
     overflow: hidden;
     display: flex;
     align-items: center;

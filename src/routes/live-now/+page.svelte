@@ -5,12 +5,22 @@
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
   <br />
   <br />
-  An infinite loop starts from the playlist publish date up until now and into the future. 
-  It consists of a group of videos that repeat over and over and over again. 
-  There is a mathmatically algorithum to sync each persons browser together by queueing them up and dispatching them to the next song in the playlist all at the right time.
-  Such that they are synced up live with everyone else already tuned in.
-  Everyone experiences the same broadcast in a livestream like fasion because after sync the videos start playing one after another.
-  Then as an added bonus a shoutbox is turned on for any additional needed commentary.
+  <iframe 
+    width="100%"
+    height="500"
+    src="https://www.youtube.com/embed/TLwhqmf4Td4?autoplay=1"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen
+  >
+  </iframe>
+  <br />
+  <br />
+  <br />
+  (This page redirects you to a scheduled playlist for your given timeslot.
+  It turns on auto play and then proceeds to loop through said playlist.
+  After the final video in the playlist you are returned back here thus repeating in sync.)
 </div>
 
 <style>

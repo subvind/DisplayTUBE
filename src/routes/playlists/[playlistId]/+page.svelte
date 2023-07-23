@@ -10,8 +10,19 @@
 
   /** @type {import('./$types').PageData} */
   export let data: any;
-  let videos: any = []
+  let videos: any = [];
+  let playlist: any;
       
+  const options: any = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric'
+  };
+
   function loadGallery () {
     let val: HTMLElement = document.getElementById('thumbnails-gallery') || Object.create(HTMLElement)
   
@@ -56,6 +67,20 @@
         console.log(error);
         return [];
       });
+    
+    fetch("/data/playlists.json")
+      .then(response => response.json())
+      .then(results => {
+        console.log('playlists.json', results)
+
+        playlist = results.find((object: any) => {
+          return object.id === data.playlistId
+        })
+        console.log('playlist', playlist)
+      }).catch(error => {
+        console.log(error);
+        return [];
+      });
   });
 </script>
 
@@ -63,7 +88,12 @@
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
   <br />
   <br />
-  <h3>Playlist videos</h3>
+  {#if playlist}
+    <h3 class="title">{playlist.snippet.title}</h3>
+    <p class="published">Published: {new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
+    <p class="description">{playlist.snippet.description}</p>
+    <br />
+  {/if}
   <div id="thumbnails-gallery" class="thumbnails-gallery">
     {#each videos as video}
       <a href={video.image} data-lg-size="1024-800" data-sub-html={`<p style="font-size: 1em;">${video.snippet.title}</p>
@@ -98,6 +128,16 @@
     cursor: pointer;
     background: #555;
     border: none;
+  }
+
+  .title {
+    margin: 0;
+  }
+
+  .published,
+  .description {
+    margin: 0;
+    color: #777;
   }
 
   .thumbnails-gallery {

@@ -12,6 +12,18 @@
 
   let videoDuration: any = null;
   let secondsRemaining: any = null;
+  let video: any = null;
+  let playlist: any = null;
+
+  const options: any = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric'
+  };
 
   function youtubeDurationToSeconds(duration) {
     // Ensure the duration is in the correct format
@@ -41,34 +53,64 @@
     async function getVideoInfo() {
       try {
         const response = await fetch(
-          `https://www.googleapis.com/youtube/v3/videos?id=${VIDEO_ID}&key=${API_KEY}&part=contentDetails`
+          `https://www.googleapis.com/youtube/v3/videos?id=${VIDEO_ID}&key=${API_KEY}&part=snippet%2C%20contentDetails%2C%20statistics%2C%20player%2C%20topicDetails`
         );
         const data = await response.json();
   
         console.log('getVideoInfo', data)
   
         if (data.items && data.items.length > 0) {
+          video = data.items[0]
           videoDuration = data.items[0].contentDetails.duration;
           secondsRemaining = youtubeDurationToSeconds(videoDuration)
 
           setTimeout(() => {
             window.location.href = '/live-now'
           }, (secondsRemaining + 5) * 1000)
+
+          console.log('video', video)
         }
       } catch (error) {
         console.error('Failed to retrieve video information.', error);
       }
     }
-  
     getVideoInfo();
+
+    fetch("/data/playlists.json")
+      .then(response => response.json())
+      .then(results => {
+        console.log('playlists.json', results)
+
+        playlist = results.find((object: any) => {
+          return object.id === data.playlistId
+        })
+        console.log('playlist', playlist)
+      }).catch(error => {
+        console.log(error);
+        return [];
+      });
   })
 
 </script>
 
 <div class="container">
+  <a href="#" target="_self"><button class="auto-play">AUTO PLAY ({secondsRemaining})</button></a>
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
-  <a href={`/playlists/${data.playlistId}`} target="_self"><button class="back">PLAYLIST</button></a> {secondsRemaining}
+  <a href={`/playlists/${data.playlistId}`} target="_self"><button class="back">PLAYLIST</button></a> 
   <br />
+  <br />
+
+  {#if playlist}
+    <h3 class="title">{playlist.snippet.title}</h3>
+    <p class="published">Published: {new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
+    <p class="description">{playlist.snippet.description}</p>
+    <br />
+  {/if}
+  {#if video}
+    <h3 class="title">{video.snippet.title}</h3>
+    <p class="published">Published: {new Date(video.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
+    <p class="description">{video.snippet.description}</p>
+  {/if}
   <br />
 
   <iframe 
@@ -81,9 +123,6 @@
     allowfullscreen
   >
   </iframe>
-
-  <br />
-  <br />
 </div>
 
 <style>
@@ -100,10 +139,25 @@
     border-bottom: 0px;
   }
 
+  .auto-play,
   .back {
     padding: 0.5em;
     cursor: pointer;
     background: #555;
     border: none;
+  }
+
+  .auto-play {
+    float: right;
+  }
+
+  .title {
+    margin: 0;
+  }
+
+  .published,
+  .description {
+    margin: 0;
+    color: #777;
   }
 </style>
