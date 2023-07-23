@@ -77,7 +77,7 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    margin-bottom: -15em;
+    margin-bottom: -7em;
   }
 
   .banner img {
