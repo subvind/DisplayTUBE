@@ -34,7 +34,7 @@ const channelId = 'UC9VI8tMugRuayae1wIm9Zjg';
 getChannelPlaylists(apiKey, channelId)
   .then(playlists => {
     if (playlists) {
-      const result = { playlists };
+      const result = playlists;
       const resultJSON = JSON.stringify(result, null, 2);
 
       fs.writeFile('./static/data/playlists.json', resultJSON, 'utf8', err => {

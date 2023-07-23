@@ -1,123 +1,121 @@
-{
-  "playlists": [
-    {
-      "kind": "youtube#playlist",
-      "etag": "mZ7N0Xkje1dpa4f2XaDpHEaqVTs",
-      "id": "PL8jttWWzHosdua7pqiz8udkUOeBVBcipc",
-      "snippet": {
-        "publishedAt": "2023-07-20T22:45:30Z",
-        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+[
+  {
+    "kind": "youtube#playlist",
+    "etag": "mZ7N0Xkje1dpa4f2XaDpHEaqVTs",
+    "id": "PL8jttWWzHosdua7pqiz8udkUOeBVBcipc",
+    "snippet": {
+      "publishedAt": "2023-07-20T22:45:30Z",
+      "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+      "title": "Dont Think About Pink Bunnies.",
+      "description": "",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "RRABBIT",
+      "localized": {
         "title": "Dont Think About Pink Bunnies.",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "RRABBIT",
-        "localized": {
-          "title": "Dont Think About Pink Bunnies.",
-          "description": ""
-        }
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "aQBRHf8HKUuyiKMaWJagSUpzxtg",
-      "id": "PL8jttWWzHosfpewgVCOFayIvf4QPGv1X5",
-      "snippet": {
-        "publishedAt": "2023-07-16T23:13:49Z",
-        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
-        "title": "🐇 PANDORAS BOX",
-        "description": "[This playlist contains offensive content & should not be viewed by anyone.] “Also, whatever you do DO NOT think about bunnies…”",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/75WFTHpOw8Y/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/75WFTHpOw8Y/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/75WFTHpOw8Y/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "RRABBIT",
-        "localized": {
-          "title": "🐇 PANDORAS BOX",
-          "description": "[This playlist contains offensive content & should not be viewed by anyone.] “Also, whatever you do DO NOT think about bunnies…”"
-        }
-      }
-    },
-    {
-      "kind": "youtube#playlist",
-      "etag": "H18JDDHXAc3xD90cjYnVmnYLvq8",
-      "id": "PL8jttWWzHosfGqAmJjE-Sh50dQGe-ELQX",
-      "snippet": {
-        "publishedAt": "2023-03-14T07:34:56Z",
-        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
-        "title": "MY15MIN",
-        "description": "If you have purchased RRABBIT “Live at The Loading Dock” CDs they were released without permission: this album is free because Im a DJ, not a musician & my music is mediocre… 😂🐇",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "RRABBIT",
-        "localized": {
-          "title": "MY15MIN",
-          "description": "If you have purchased RRABBIT “Live at The Loading Dock” CDs they were released without permission: this album is free because Im a DJ, not a musician & my music is mediocre… 😂🐇"
-        }
+        "description": ""
       }
     }
-  ]
-}
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "aQBRHf8HKUuyiKMaWJagSUpzxtg",
+    "id": "PL8jttWWzHosfpewgVCOFayIvf4QPGv1X5",
+    "snippet": {
+      "publishedAt": "2023-07-16T23:13:49Z",
+      "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+      "title": "🐇 PANDORAS BOX",
+      "description": "[This playlist contains offensive content & should not be viewed by anyone.] “Also, whatever you do DO NOT think about bunnies…”",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/75WFTHpOw8Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/75WFTHpOw8Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/75WFTHpOw8Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "RRABBIT",
+      "localized": {
+        "title": "🐇 PANDORAS BOX",
+        "description": "[This playlist contains offensive content & should not be viewed by anyone.] “Also, whatever you do DO NOT think about bunnies…”"
+      }
+    }
+  },
+  {
+    "kind": "youtube#playlist",
+    "etag": "H18JDDHXAc3xD90cjYnVmnYLvq8",
+    "id": "PL8jttWWzHosfGqAmJjE-Sh50dQGe-ELQX",
+    "snippet": {
+      "publishedAt": "2023-03-14T07:34:56Z",
+      "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+      "title": "MY15MIN",
+      "description": "If you have purchased RRABBIT “Live at The Loading Dock” CDs they were released without permission: this album is free because Im a DJ, not a musician & my music is mediocre… 😂🐇",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "RRABBIT",
+      "localized": {
+        "title": "MY15MIN",
+        "description": "If you have purchased RRABBIT “Live at The Loading Dock” CDs they were released without permission: this album is free because Im a DJ, not a musician & my music is mediocre… 😂🐇"
+      }
+    }
+  }
+]

@@ -104,12 +104,12 @@
     fetch("/data/playlists.json")
       .then(response => response.json())
       .then(results => {
-        console.log('playlists.json', results.items)
+        console.log('playlists.json', results)
         // find a common thumbnail
         // results.items.forEach((key, value) => {
 
         // })
-        playlists = results.items
+        playlists = results
 
         playlists.forEach((playlist: any) => {
           if (playlist.snippet.thumbnails.standard) {
