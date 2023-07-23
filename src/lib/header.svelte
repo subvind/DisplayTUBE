@@ -1,19 +1,67 @@
-<a href="/live-now"><button class="live-now">LIVE NOW</button></a>
-<h1>RRABBIT</h1>
-<p>
-  RRABBIT was a DJ/Performer/Activist/Artist at underground raves in 1998-early 2000’s. Known for playing controversial/complicated music. 
-  RRABBIT is from the house of Jack Doroshow: The Queen, Mother Flawless Sabrina.
-  They were recognized in 2 performances at PS122. You may also remember them speaking on the radio for The Whitney Museum of Art: spoiler alert, I called Ratzinger a Nazi…
-  Profile photo by Megan Mantia.
-</p>
+<script lang="ts">
+  import { onMount } from "svelte";
+
+  let channel: any = null
+  onMount(() => {
+    fetch(`/data/profile.json`)
+      .then(response => response.json())
+      .then(results => {
+        console.log(`profile.json`, results)
+        channel = results
+      }).catch(error => {
+        console.log(error);
+        return [];
+      });
+  })
+</script>
+
+  <div class="banner">
+    {#if channel}
+      <img src={channel.brandingSettings.image.bannerExternalUrl} alt="">
+    {/if}
+  </div>
+  <div class="container">
+    <a href="/live-now"><button class="live-now">LIVE NOW</button></a>
+
+    {#if channel}
+      <h1>{channel.snippet.title}</h1>
+      <p>
+        {channel.brandingSettings.channel.description}
+      </p>
+    {/if}
+  </div>
+
 
 <style>
+  .container {
+    width: 900px;
+    margin: 0 auto;
+    background: #111;
+    padding: 1em;
+    color: #ccc;
+    position: relative;
+    border: 3px solid #333;
+    border-bottom: 0px;
+  }
   h1 {
     margin: 0;
   }
 
   p {
     color: #888;
+  }
+
+  .banner {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: -15em;
+  }
+
+  .banner img {
+    width: 100%;
   }
 
   .live-now {

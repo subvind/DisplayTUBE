@@ -1,0 +1,53 @@
+{
+  "kind": "youtube#channel",
+  "etag": "Qb6mVn4M4UMLgRxECx1x1mERoNE",
+  "id": "UC9VI8tMugRuayae1wIm9Zjg",
+  "snippet": {
+    "title": "RRABBIT",
+    "description": "RRABBIT was a DJ/Performer/Activist/Artist at underground raves in 1998-early 2000’s. Known for playing controversial/complicated music. \nRRABBIT is from the house of Jack Doroshow: The Queen, Mother Flawless Sabrina.\nThey were recognized in 2 performances at PS122. \nProfile photo by Megan Mantia.\nI may have psychiatric problems please just leave me be…",
+    "customUrl": "@rrabbitmusic",
+    "publishedAt": "2023-03-11T22:46:28.890624Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://yt3.ggpht.com/nK457qA_K4WmDXsBp41FMw64QbJCKCPZyxqge1rYT_6EywsBtrULdvzO5tdygz81lTJVoz1e=s88-c-k-c0x00ffffff-no-rj",
+        "width": 88,
+        "height": 88
+      },
+      "medium": {
+        "url": "https://yt3.ggpht.com/nK457qA_K4WmDXsBp41FMw64QbJCKCPZyxqge1rYT_6EywsBtrULdvzO5tdygz81lTJVoz1e=s240-c-k-c0x00ffffff-no-rj",
+        "width": 240,
+        "height": 240
+      },
+      "high": {
+        "url": "https://yt3.ggpht.com/nK457qA_K4WmDXsBp41FMw64QbJCKCPZyxqge1rYT_6EywsBtrULdvzO5tdygz81lTJVoz1e=s800-c-k-c0x00ffffff-no-rj",
+        "width": 800,
+        "height": 800
+      }
+    },
+    "localized": {
+      "title": "RRABBIT",
+      "description": "RRABBIT was a DJ/Performer/Activist/Artist at underground raves in 1998-early 2000’s. Known for playing controversial/complicated music. \nRRABBIT is from the house of Jack Doroshow: The Queen, Mother Flawless Sabrina.\nThey were recognized in 2 performances at PS122. \nProfile photo by Megan Mantia.\nI may have psychiatric problems please just leave me be…"
+    }
+  },
+  "contentDetails": {
+    "relatedPlaylists": {
+      "likes": "",
+      "uploads": "UU9VI8tMugRuayae1wIm9Zjg"
+    }
+  },
+  "statistics": {
+    "viewCount": "625",
+    "subscriberCount": "3",
+    "hiddenSubscriberCount": false,
+    "videoCount": "9"
+  },
+  "brandingSettings": {
+    "channel": {
+      "title": "RRABBIT",
+      "description": "RRABBIT was a DJ/Performer/Activist/Artist at underground raves in 1998-early 2000’s. Known for playing controversial/complicated music. \nRRABBIT is from the house of Jack Doroshow: The Queen, Mother Flawless Sabrina.\nThey were recognized in 2 performances at PS122. \nProfile photo by Megan Mantia.\nI may have psychiatric problems please just leave me be…"
+    },
+    "image": {
+      "bannerExternalUrl": "https://yt3.googleusercontent.com/gYB1-3kFOyWEv41E0NE4q8lpEVkWAWp42ps9PNVGSyT9ab6b2tGUuy21gYUM04UsDWQrAY-Tsg"
+    }
+  }
+}

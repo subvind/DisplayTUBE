@@ -1,7 +1,5 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import Header from "$lib/header.svelte"
-  import Footer from "$lib/footer.svelte"
 
   // lightGallery
   import lightGallery from 'lightgallery';
@@ -135,10 +133,7 @@
 </script>
 
 <div class="container">
-  <Header />
-  
   <div id="inline-gallery-container" class="inline-gallery-container"></div>
-  
   <br />
   <br />
   <h3>Created playlists</h3>
@@ -147,7 +142,7 @@
       <a href={playlist.image} data-lg-size="1024-800" data-sub-html={`<p style="font-size: 1em;">${playlist.snippet.title}</p>
         <br />
         <a href="/playlists/${playlist.id}" target="_self">
-          <button style="padding: 0.5em; cursor: pointer; font-size: 1em;">watch playlist</button>
+          <button style="padding: 0.5em; cursor: pointer; font-size: 1em;">view playlist</button>
         </a>
         <br />
         <br />`}>
@@ -155,8 +150,6 @@
       </a>
     {/each}
   </div>
-
-  <Footer />
 </div>
 
 <style>
@@ -166,6 +159,10 @@
     background: #111;
     padding: 1em;
     color: #ccc;
+    position: relative;
+    border: 3px solid #333;
+    border-top: 0px;
+    border-bottom: 0px;
   }
   .inline-gallery-container {
     height: 500px;

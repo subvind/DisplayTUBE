@@ -1,10 +1,7 @@
 <script lang="ts">
-  import Header from "$lib/header.svelte"
-  import Footer from "$lib/footer.svelte"
 </script>
 
 <div class="container">
-  <Header />
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
   <br />
   <br />
@@ -14,7 +11,6 @@
   Such that they are synced up live with everyone else already tuned in.
   Everyone experiences the same broadcast in a livestream like fasion because after sync the videos start playing one after another.
   Then as an added bonus a shoutbox is turned on for any additional needed commentary.
-  <Footer />
 </div>
 
 <style>
@@ -24,6 +20,10 @@
     background: #111;
     padding: 1em;
     color: #ccc;
+    position: relative;
+    border: 3px solid #333;
+    border-top: 0px;
+    border-bottom: 0px;
   }
   .back {
     padding: 0.5em;

@@ -1,9 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 
-  import Header from '$lib/header.svelte'
-  import Footer from '$lib/footer.svelte'
-
   /** @type {import('./$types').PageData} */
   export let data: any;
 
@@ -68,9 +65,7 @@
 
 </script>
 
-
 <div class="container">
-  <Header />
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
   <a href={`/playlists/${data.playlistId}`} target="_self"><button class="back">PLAYLIST</button></a> {secondsRemaining}
   <br />
@@ -89,9 +84,7 @@
 
   <br />
   <br />
-  <Footer />
 </div>
-
 
 <style>
   .container {
@@ -100,6 +93,10 @@
     background: #111;
     padding: 1em;
     color: #ccc;
+    position: relative;
+    border: 3px solid #333;
+    border-top: 0px;
+    border-bottom: 0px;
   }
 
   .back {
