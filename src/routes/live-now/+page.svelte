@@ -1,26 +1,57 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+
+  let playlists: any = null;
+
+  const options: any = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric'
+  };
+
+  onMount(() => {
+    fetch("/data/playlists.json")
+      .then(response => response.json())
+      .then(results => {
+        console.log('playlists.json', results)
+
+        playlists = results
+        console.log('playlists', playlists)
+      }).catch(error => {
+        console.log(error);
+        return [];
+      });
+  })
 </script>
 
 <div class="container">
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
   <br />
   <br />
-  <iframe 
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/TLwhqmf4Td4?autoplay=1"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen
-  >
-  </iframe>
-  <br />
-  <br />
-  <br />
-  (This page redirects you to a scheduled playlist for your given timeslot.
-  It turns on auto play and then proceeds to loop through said playlist.
-  After the final video in the playlist you are returned back here thus repeating in sync.)
+  {#if playlists}
+    <table border="1">
+      <tr>
+        <th>Playlist</th>
+        <th>Description</th>
+        <th>Published</th>
+      </tr>
+      {#each playlists as playlist}
+        <tr class="row">
+          <td>
+            <a href={`/live-now/${playlist.id}`} target="_self"><button class="watch">{playlist.snippet.title}</button></a>
+          </td>
+          <td>{playlist.snippet.description}</td>
+          <td>{new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</td>
+        </tr>
+      {/each}
+    </table>
+  {/if}
+    <ul>
+    </ul>
 </div>
 
 <style>
@@ -36,10 +67,25 @@
     border-top: 0px;
     border-bottom: 0px;
   }
+  
   .back {
     padding: 0.5em;
     cursor: pointer;
     background: #555;
     border: none;
+  }
+
+  .watch {
+    margin: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    background: #444;
+    border: none;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid #000;
   }
 </style>
