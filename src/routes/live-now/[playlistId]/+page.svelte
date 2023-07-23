@@ -41,7 +41,7 @@
           // Redirect the user to the random video in the playlist
           window.location.href = url;
           
-        }, 6000)
+        }, 7000)
       }).catch(error => {
         console.log(error);
         return [];

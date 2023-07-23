@@ -12,8 +12,10 @@
 
   let videoDuration: any = null;
   let secondsRemaining: any = null;
+  let videos: any = null;
   let video: any = null;
   let playlist: any = null;
+  let videoIndex: any = null;
 
   const options: any = {
     weekday: 'long',
@@ -25,7 +27,7 @@
     second: 'numeric'
   };
 
-  function youtubeDurationToSeconds(duration) {
+  function youtubeDurationToSeconds(duration: string) {
     // Ensure the duration is in the correct format
     if (!/^PT(\d+H)?(\d+M)?(\d+S)?$/.test(duration)) {
       throw new Error('Invalid YouTube duration format');
@@ -55,17 +57,27 @@
         const response = await fetch(
           `https://www.googleapis.com/youtube/v3/videos?id=${VIDEO_ID}&key=${API_KEY}&part=snippet%2C%20contentDetails%2C%20statistics%2C%20player%2C%20topicDetails`
         );
-        const data = await response.json();
+        const result = await response.json();
   
-        console.log('getVideoInfo', data)
+        console.log('getVideoInfo', result)
   
-        if (data.items && data.items.length > 0) {
-          video = data.items[0]
-          videoDuration = data.items[0].contentDetails.duration;
+        if (result.items && result.items.length > 0) {
+          video = result.items[0]
+          videoDuration = result.items[0].contentDetails.duration;
           secondsRemaining = youtubeDurationToSeconds(videoDuration)
 
+          /**
+           * play the next video
+           */
           setTimeout(() => {
-            window.location.href = '/live-now'
+            // Move to the next video in the playlist
+            videoIndex = (videoIndex + 1) % videos.length;
+      
+            // Get the video ID of the next video
+            const videoId = videos[videoIndex].snippet.resourceId.videoId;
+      
+            // Redirect the user to the next video in the playlist
+            window.location.href = `/playlists/${data.playlistId}/${videoId}`;
           }, (secondsRemaining + 5) * 1000)
 
           console.log('video', video)
@@ -89,6 +101,23 @@
         console.log(error);
         return [];
       });
+
+    console.log('/playlists/[playlistId]', data.playlistId)
+    fetch(`/data/playlists/${data.playlistId}.json`)
+      .then(response => response.json())
+      .then(results => {
+        console.log(`${data.playlistId}.json`, results)
+        videos = results
+
+        // where is our current video index?
+        videoIndex = videos.findIndex((object: any) => {
+          return object.snippet.resourceId.videoId === data.videoId
+        })
+      }).catch(error => {
+        console.log(error);
+        return [];
+      });
+    
   })
 
 </script>
