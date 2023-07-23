@@ -21,10 +21,17 @@
     {/if}
   </div>
   <div class="container">
-    <a href="/live-now"><button class="live-now">LIVE NOW</button></a>
-
     {#if channel}
+      <img src={channel.snippet.thumbnails.medium.url} alt="" class="avatar">
+      <a href={`https://youtube.com/${channel.snippet.customUrl}`} target="_blank"><button class="navigation">SUBSCRIBE</button></a>
+      <a href="/live-now"><button class="navigation">LIVE NOW</button></a>
+
       <h1>{channel.snippet.title}</h1>
+      <p>
+        Views: <strong>{channel.statistics.viewCount}</strong> •
+        Subscribers: <strong>{channel.statistics.subscriberCount}</strong> • 
+        Videos: <strong>{channel.statistics.videoCount}</strong>
+      </p>
       <p>
         {channel.brandingSettings.channel.description}
       </p>
@@ -38,17 +45,30 @@
     margin: 0 auto;
     background: #111;
     padding: 1em;
+    padding-bottom: 0;
     color: #ccc;
     position: relative;
     border: 3px solid #333;
     border-bottom: 0px;
+    overflow: hidden;
   }
+
   h1 {
     margin: 0;
   }
 
   p {
+    margin: 0.5em 0;
     color: #888;
+  }
+
+  .avatar {
+    float: left;
+    width: 150px;
+    border: 3px solid #333;
+    border-radius: 10em;
+    margin-right: 1em;
+    margin-bottom: 1em;
   }
 
   .banner {
@@ -64,9 +84,10 @@
     width: 100%;
   }
 
-  .live-now {
+  .navigation {
     float: right;
     padding: 0.75em;
     cursor: pointer;
+    margin-left: 0.5em;
   }
 </style>

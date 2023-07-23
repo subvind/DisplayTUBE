@@ -19,6 +19,7 @@
     margin: 0 auto;
     background: #111;
     padding: 1em;
+    padding-top: 0;
     color: #ccc;
     position: relative;
     border: 3px solid #333;
