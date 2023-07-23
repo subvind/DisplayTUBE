@@ -1,0 +1,246 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "-Zr2ZICcCnhdtuMoum8UwB2sqKU",
+  "nextPageToken": "EAAaBlBUOkNBVQ",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sW6_ssE1EQIm4e_xk68zzC3j_Mo",
+      "id": "UEw4anR0V1d6SG9zZkdxQW1KakUtU2g1MGRRR2UtRUxRWC5DQUNERDQ2NkIzRUQxNTY1",
+      "snippet": {
+        "publishedAt": "2023-07-18T00:43:46Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "‘NEGLIGENT’ music by RRABBIT",
+        "description": "Cartoon themed remix song.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CBWXeKD6mzc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosfGqAmJjE-Sh50dQGe-ELQX",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "CBWXeKD6mzc"
+        },
+        "videoOwnerChannelTitle": "RRABBIT",
+        "videoOwnerChannelId": "UC9VI8tMugRuayae1wIm9Zjg"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "cYdheyce_aUfDztcT24fi39RhxI",
+      "id": "UEw4anR0V1d6SG9zZkdxQW1KakUtU2g1MGRRR2UtRUxRWC4wOTA3OTZBNzVEMTUzOTMy",
+      "snippet": {
+        "publishedAt": "2023-03-14T07:35:31Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "“Traverse” music by RRABBIT",
+        "description": "Song: “Traverse”\nArtist: RRABBIT\nYear: 2020\nVideo: Travis Burandt\n\nElectronic music, independent artist, instrumental no lyrics. Moody music, ambient noise, emotional song. Created using DPM.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CNXIJ3Od7WU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CNXIJ3Od7WU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CNXIJ3Od7WU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/CNXIJ3Od7WU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/CNXIJ3Od7WU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosfGqAmJjE-Sh50dQGe-ELQX",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "CNXIJ3Od7WU"
+        },
+        "videoOwnerChannelTitle": "RRABBIT",
+        "videoOwnerChannelId": "UC9VI8tMugRuayae1wIm9Zjg"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "RnxYDQHSldimbaTyQ1gR6EqyhlE",
+      "id": "UEw4anR0V1d6SG9zZkdxQW1KakUtU2g1MGRRR2UtRUxRWC4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2023-03-14T07:35:10Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "“Muccia” music by RRABBIT",
+        "description": "Song: Muccia\nArtist: RRABBIT \nYear: 2022\n\nInstrumental electronic music. Moody, trippy song with no lyrics. Feels & such… Independent artist, new music. \n\n\nDedicated to Delores: RIP",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XVKDVMaaXnA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XVKDVMaaXnA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XVKDVMaaXnA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XVKDVMaaXnA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XVKDVMaaXnA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosfGqAmJjE-Sh50dQGe-ELQX",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XVKDVMaaXnA"
+        },
+        "videoOwnerChannelTitle": "RRABBIT",
+        "videoOwnerChannelId": "UC9VI8tMugRuayae1wIm9Zjg"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Iwzrgo9dHBM71KKwgwEsjUpwyEA",
+      "id": "UEw4anR0V1d6SG9zZkdxQW1KakUtU2g1MGRRR2UtRUxRWC41MjE1MkI0OTQ2QzJGNzNG",
+      "snippet": {
+        "publishedAt": "2023-03-14T07:35:25Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "‘Light In The Dark’ visualizer & song ‘Mardi Gras’ by RRABBIT",
+        "description": "Song: ‘Mardi Gras’\nArtist: RRABBIT \nYear: 2021\nVideo: ‘Light In The Dark’\nVideo by RRABBIT ft. Trav\n\n\nElectronic music, independent music, instrumental electronic drum song. Created with GB obvs. Visual music video.  Visualizer.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J2bwENuCEHI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J2bwENuCEHI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J2bwENuCEHI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/J2bwENuCEHI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/J2bwENuCEHI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosfGqAmJjE-Sh50dQGe-ELQX",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "J2bwENuCEHI"
+        },
+        "videoOwnerChannelTitle": "RRABBIT",
+        "videoOwnerChannelId": "UC9VI8tMugRuayae1wIm9Zjg"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "eCKc5aWEeDnm1MpGcPb5WwBhTzc",
+      "id": "UEw4anR0V1d6SG9zZkdxQW1KakUtU2g1MGRRR2UtRUxRWC4wMTcyMDhGQUE4NTIzM0Y5",
+      "snippet": {
+        "publishedAt": "2023-03-14T07:35:18Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "“Wow. That Sounds Like Music” music by RRABBIT",
+        "description": "Song: WOW. THAT SOUNDS LIKE MUSIC.\nArtist: RRABBIT\nYear: 2022\n\nElectronic music, heavy music, intense song, instrumental, no lyrics. Independent artist/ no label. You know the deal.\n\nArt, music, everything by RRABBIT",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ufr7jkKfI08/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ufr7jkKfI08/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ufr7jkKfI08/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Ufr7jkKfI08/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Ufr7jkKfI08/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosfGqAmJjE-Sh50dQGe-ELQX",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Ufr7jkKfI08"
+        },
+        "videoOwnerChannelTitle": "RRABBIT",
+        "videoOwnerChannelId": "UC9VI8tMugRuayae1wIm9Zjg"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 8,
+    "resultsPerPage": 5
+  }
+}

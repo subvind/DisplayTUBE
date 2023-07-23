@@ -1,0 +1,246 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "k9yTLxKfI__2mFrvLRn38k4501s",
+  "nextPageToken": "EAAaBlBUOkNBVQ",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "aECa49hTbPYG_Jg5xMayszzNEuU",
+      "id": "UEw4anR0V1d6SG9zZHVhN3BxaXo4dWRrVU9lQlZCY2lwYy4yODlGNEE0NkRGMEEzMEQy",
+      "snippet": {
+        "publishedAt": "2023-07-20T22:46:07Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "BASQUIAT",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NJe5LoKuj8c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosdua7pqiz8udkUOeBVBcipc",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "NJe5LoKuj8c"
+        },
+        "videoOwnerChannelTitle": "RRABBIT",
+        "videoOwnerChannelId": "UC9VI8tMugRuayae1wIm9Zjg"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sP5dDwl2ePWvPCdTgTYVic-9Mu4",
+      "id": "UEw4anR0V1d6SG9zZHVhN3BxaXo4dWRrVU9lQlZCY2lwYy4wNEU1MTI4NkZEMzVBN0JF",
+      "snippet": {
+        "publishedAt": "2023-07-23T00:29:45Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "Haile Selassie: King of Kings",
+        "description": "Thanks to Under Lucky Stars for sponsoring today's video. Go to https://underluckystars.com/biographics to get 10% off your order right now.\n\n\n→ Subscribe for new videos at least twice a week!\nhttps://www.youtube.com/c/biographics?sub_confirmation=1\n\nLove content? Check out Simon's other YouTube Channels:\n\nGeographics: https://www.youtube.com/channel/UCHKRfxkMTqiiv4pF99qGKIw\nMegaProjects: https://www.youtube.com/channel/UC0woBco6Dgcxt0h8SwyyOmw\nSideProjects: https://www.youtube.com/channel/UC3Wn3dABlgESm8Bzn8Vamgg\nCasual Criminalist: https://www.youtube.com/channel/UCp1tsmksyf6TgKFMdt8-05Q\nTopTenz: https://www.youtube.com/user/toptenznet\nToday I Found Out: https://www.youtube.com/user/TodayIFoundOut\nHighlight History: https://www.youtube.com/channel/UCnb-VTwBHEV3gtiB9di9DZQ\nXPLRD: https://www.youtube.com/channel/UCVH8lH7ZLDUe_d9mZ3dlyYQ\nBusiness Blaze: https://www.youtube.com/channel/UCYY5GWf7MHFJ6DZeHreoXgw\n\nThis video is #sponsored by Under Lucky Stars.\n\nSimon's Social Media:\nTwitter: https://twitter.com/SimonWhistler\nInstagram: https://www.instagram.com/simonwhistler/\n\nSource/Further reading:\n\nBiography, overview: https://www.biography.com/political-figure/haile-selassie-i  \n\nHistory Extra, overview: https://www.historyextra.com/period/20th-century/haile-selassie-emperor-of-ethiopia-and-architect-of-modern-africa/  \n\nBritannica: https://www.britannica.com/biography/Haile-Selassie-I  \n\nBritannica, history of Ethiopia: https://www.britannica.com/place/Ethiopia/Emergence-of-modern-Ethiopia-1855-1916  \n\nNYTimes, obituary: https://www.nytimes.com/1975/08/28/archives/haile-selassie-of-ethiopia-dies-at-83-deposed-emperor-ruled-ancient.html \n\nGuardian review of King of Kings: https://www.theguardian.com/books/2015/dec/24/king-of-kings-haile-selassie-ethiopia-asfa-wossen-asserate-review   \n\nDW, Ethiopia’s Rastafari community: https://www.dw.com/en/why-ethiopias-rastafari-community-keeps-dwindling/a-50339635  \n\nBBC podcast: https://www.bbc.co.uk/programmes/p04xyqgy  \n\nCBC Ethiopia’s famines: https://www.cbc.ca/documentarychannel/features/ethiopias-unforgettable-famines-heres-why-they-really-happen  \n\nVideo of Selassie’s coronation: https://www.youtube.com/watch?v=6qlB8UVocY8",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cvZO_0R-QeY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cvZO_0R-QeY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cvZO_0R-QeY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cvZO_0R-QeY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/cvZO_0R-QeY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosdua7pqiz8udkUOeBVBcipc",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "cvZO_0R-QeY"
+        },
+        "videoOwnerChannelTitle": "Biographics",
+        "videoOwnerChannelId": "UClnDI2sdehVm1zm_LmUHsjQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "1u6461u2bn_cVrT4ZNmqjkiJs4E",
+      "id": "UEw4anR0V1d6SG9zZHVhN3BxaXo4dWRrVU9lQlZCY2lwYy4wMTYxQzVBRDI1NEVDQUZE",
+      "snippet": {
+        "publishedAt": "2023-07-23T00:42:13Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "The Caretaker - Everywhere At The End Of Time - Stages 1-6 (Complete)",
+        "description": "EVERYWHERE AT THE END OF TIME - Stages 1-6 (COMPLETE)\nhttps://thecaretaker.bandcamp.com/album/everywhere-at-the-end-of-time\n\nEverywhere at the end of time' was a series exploring dementia, \nits advancement and its totality.\n\nAudio remembered, disfigured and forgotten by The Caretaker.\nArtwork on all stages by Ivan Seal.\nMastering on all stages by Lupo @ Calyx.\nVinyl and CD distributed by Boomkat.\n\nDigital on Bandcamp  - \nhttps://thecaretaker.bandcamp.com/album/everywhere-at-the-end-of-time\n\nAvailable on CD : \n3CD collectors edition (Stages 1-3) - https://boomkat.com/products/stages-1-3\n4CD collectors edition (Stages 4-6) - https://boomkat.com/products/everywhere-at-the-end-of-time-stages-4-6\n\nAvailable on limited Vinyl :\nStage 1 - https://boomkat.com/products/everywhere-at-the-end-of-time\nStage 2 - https://boomkat.com/products/everywhere-at-the-end-of-time-2nd-stage\nStage 3 - https://boomkat.com/products/everywhere-at-the-end-of-time-stage-3\nStage 4 - https://boomkat.com/products/everywhere-at-the-end-of-time-stage-4\nStage 5 - https://boomkat.com/products/everywhere-at-the-end-of-time-stage-5\nStage 6 - https://boomkat.com/products/everywhere-at-the-end-of-time-stage-6\n\nSTAGE 1 : 00:00:00\nHere we experience the first signs of memory loss. This stage is most like a beautiful daydream. \nThe glory of old age and recollection. The last of the great days. \n\n00:00:00 - A1 - It's just a burning memory\n00:03:32 - A2 - We don't have many days\n00:07:02 - A3 - Late afternoon drifting \n00:10:38 - A4 - Childishly fresh eyes\n00:13:36 - A5 - Slightly bewildered\n00:15:38 - A6 - Things that are beautiful and transient\n00:20:12 - B1 - All that follows is true\n00:23:44 - B2 - An autumnal equinox\n00:26:31 - B3 - Quiet internal rebellions\n00:30:02 - B4 - The loves of my entire life\n00:34:06 - B5 - Into each others eyes\n00:38:42 - B6 - My heart will stop in joy\n\nSTAGE 2 : 00:41:22\nThe second stage is the self realisation and awareness that something is wrong with a refusal to accept that. More effort is made to remember so memories can be more long form with a little more deterioration in quality. The overall personal mood is generally lower than the first stage and at a point before confusion starts setting in. \n\n00:41:22 - C1 - A losing battle is raging\n00:46:01 - C2 - Misplaced in time \n00:50:44 - C3 - What does it matter how my heart breaks\n00:53:22 - C4 - Glimpses of hope in trying times\n00:58:06 - C5 - Surrendering to despair\n01:03:09 - D1 - I still feel as though I am me \n01:07:17 - D2 - Quiet dusk coming early\n01:10:54 - D3 - Last moments of pure recall\n01:14:47 - D4 - Denial unravelling\n01:19:02 - D5 - The way ahead feels lonely\n\nSTAGE 3 : 01:23:17\nHere we are presented with some of the last coherent memories before confusion fully rolls in and the grey mists form and fade away. Finest moments have been remembered, the musical flow in places is more confused and tangled. As we progress some singular memories become more disturbed, isolated, broken and distant. These are the last embers of awareness before we enter the post awareness stages.\n\n01:23:17 - E1 - Back there Benjamin\n01:27:33 - E2 - And heart breaks\n01:31:38 - E3 - Hidden sea buried deep\n01:32:59 - E4 - Libet's all joyful camaraderie\n01:36:12 - E5 - To the minimal great hidden\n01:37:53 - E6 - Sublime beyond loss\n01:40:03 - E7 - Bewildered in other eyes\n01:41:55 - E8 - Long term dusk glimpses\n01:45:29 - F1 - Gradations of arms length\n01:47:00 - F2 - Drifting time misplaced\n01:51:16 - F3 - Internal bewildered World\n01:54:45 - F4 - Burning despair does ache\n01:57:22 - F5 - Aching cavern without lucidity\n01:58:41 - F6 - An empty bliss beyond this World\n02:02:19 - F7 - Libet delay\n02:06:15 - F8 - Mournful cameraderie\n\nSTAGE 4 : 02:08:53\nPost-Awareness Stage 4 is where serenity and the ability to recall singular memories gives way to confusions and horror. It's the beginning of an eventual process where all memories begin to become more fluid through entanglements, repetition and rupture. \n\n02:08:53 - G1 - Stage 4 Post Awareness Confusions\n02:31:02 - H1 - Stage 4 Post Awareness Confusions\n02:52:55 - I1 - Stage 4 Temporary Bliss State \n03:13:58 - J1 - Stage 4 Post Awareness Confusions\n\nSTAGE 5 : 03:36:12\nPost-Awareness Stage 5 confusions and horror. More extreme entanglements, repetition and rupture can give way to calmer moments. The unfamiliar may sound and feel familiar. \nTime is often spent only in the moment leading to isolation.\n\n03:36:12 - K1 - Stage 5 Advanced plaque entanglements\n03:58:49 - L1 - Stage 5 Advanced plaque entanglements\n04:21:37 - M1 - Stage 5 Synapse retrogenesis\n04:42:25 - N1 - Stage 5 Sudden time regression into isolation\n\nSTAGE 6 : 05:04:32\nPost-Awareness Stage 6 is without description.\n\n05:04:32 - O1 - Stage 6 A confusion so thick you forget forgetting\n05:26:25 - P1 - Stage 6 A brutal bliss beyond this empty defeat\n05:48:02 - Q1 - Stage 6 Long decline is over\n06:09:12 - R1 - Stage 6 Place in the World fades away",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wJWksPWDKOc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wJWksPWDKOc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wJWksPWDKOc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wJWksPWDKOc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wJWksPWDKOc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosdua7pqiz8udkUOeBVBcipc",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wJWksPWDKOc"
+        },
+        "videoOwnerChannelTitle": "vvmtest",
+        "videoOwnerChannelId": "UCG74OWf0lYhUK89siLei-vQ"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "z85-Vt0A6__8JCJ69_FtmCGovWU",
+      "id": "UEw4anR0V1d6SG9zZHVhN3BxaXo4dWRrVU9lQlZCY2lwYy4xMkVGQjNCMUM1N0RFNEUx",
+      "snippet": {
+        "publishedAt": "2023-07-22T00:07:49Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "KOLLEKTIV TURMSTRASSE - Sorry I Am Late (Official Video)",
+        "description": "KOLLEKTIV TURMSTRASSE - Sorry I Am Late (Official Video)\n\niTunes : http://smarturl.it/iSorryIAmLate \nSpotify : http://smarturl.it/sSorryIAmLate \nApple Music : http://smarturl.it/amSorryIAmLate\n\nDirected by Jakob Grunert\nProduced by toktok film",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wwZbonjAlPc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wwZbonjAlPc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wwZbonjAlPc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wwZbonjAlPc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wwZbonjAlPc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosdua7pqiz8udkUOeBVBcipc",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wwZbonjAlPc"
+        },
+        "videoOwnerChannelTitle": "FFRR",
+        "videoOwnerChannelId": "UCmV2SO-wJJ6FLmkxe7by4pA"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "2cbDCULllriiB7MhQkAnCtw5yqw",
+      "id": "UEw4anR0V1d6SG9zZHVhN3BxaXo4dWRrVU9lQlZCY2lwYy41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2023-07-20T22:45:45Z",
+        "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
+        "title": "BLOND:ISH - Call My Name (Official Lyric Video)",
+        "description": "The official lyric video for 'Call My Name' by BLOND:ISH. Download/Stream 'Call My Name' here: https://FFRR.lnk.to/CallMyName\n\nFollow BLOND:ISH:\nhttps://www.facebook.com/Blondish\nhttps://twitter.com/blond_ish\nhttps://www.instagram.com/blondish/\nhttps://soundcloud.com/blondish\n\nFollow FFRR:\nhttps://www.facebook.com/FFRRecords\nhttps://twitter.com/FFRRecords\nhttps://www.instagram.com/ffrrecords/\n\nFFRR was founded in 1986. The label has brought countless culturally important records across the dance music spectrum over the years including Orbital, Armand Van Helden, Salt ‘N’ Pepa, Lil Louis, Goldie to name but a few. \n\nWe continue to build on that heritage with new & exciting cutting-edge music. Since the beginning of 2020, FFRR has enjoyed success with Diplo & SIDEPIECE’s “On My Mind”, Alan Fitzpatrick vs Patrice Rushen’s “Haven’t You Heard” and Obskür’s “Bayside”. They have also welcomed artists such as Eats Everything, Sam Gellaitry and Sonny Fodera to the FFRR family.\nOur mission is to release Music That Moves You.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i0ZnX9xYBdU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i0ZnX9xYBdU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i0ZnX9xYBdU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/i0ZnX9xYBdU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/i0ZnX9xYBdU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "RRABBIT",
+        "playlistId": "PL8jttWWzHosdua7pqiz8udkUOeBVBcipc",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "i0ZnX9xYBdU"
+        },
+        "videoOwnerChannelTitle": "FFRR",
+        "videoOwnerChannelId": "UCmV2SO-wJJ6FLmkxe7by4pA"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 86,
+    "resultsPerPage": 5
+  }
+}

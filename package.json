@@ -7,7 +7,9 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"getChannel": "node ./backend/getChannel.js",
+		"getPlaylists": "node ./backend/getPlaylists.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
@@ -20,6 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"lightgallery": "^2.7.1"
+		"lightgallery": "^2.7.1",
+		"node-fetch": "^3.3.1"
 	}
 }
