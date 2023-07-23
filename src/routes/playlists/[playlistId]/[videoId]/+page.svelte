@@ -99,6 +99,18 @@
   <a href={`/playlists/${data.playlistId}`} target="_self"><button class="back">PLAYLIST</button></a> 
   <br />
   <br />
+  <iframe 
+    width="900" 
+    height="500" 
+    src={`https://www.youtube.com/embed/${data.videoId}?autoplay=1`} 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen
+  >
+  </iframe>
+  <br />
+  <br />
 
   {#if playlist}
     <h3 class="title">{playlist.snippet.title}</h3>
@@ -111,18 +123,6 @@
     <p class="published">Published: {new Date(video.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
     <p class="description">{video.snippet.description}</p>
   {/if}
-  <br />
-
-  <iframe 
-    width="900" 
-    height="500" 
-    src={`https://www.youtube.com/embed/${data.videoId}?autoplay=1`} 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen
-  >
-  </iframe>
 </div>
 
 <style>

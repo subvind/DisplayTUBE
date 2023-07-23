@@ -17,28 +17,31 @@
   };
 
   onMount(() => {
+
     console.log('/playlists/[playlistId]', data.playlistId)
     fetch(`/data/playlists/${data.playlistId}.json`)
       .then(response => response.json())
       .then(results => {
-        console.log(`${data.playlistId}.json`, results.items)
-        // find a common thumbnail
-        // results.items.forEach((key, value) => {
+        console.log(`${data.playlistId}.json`, results)
+        videos = results
 
-        // })
-        videos = results.items
+        console.log('setTimeout', videos)
+        setTimeout(() => {
+          // Generate a random index within the range of the playlist length
+          const randomIndex = Math.floor(Math.random() * videos.length);
+          console.log('randomIndex', randomIndex)
 
-        videos.forEach((playlist: any) => {
-          if (playlist.snippet.thumbnails.standard) {
-            playlist.image = playlist.snippet.thumbnails.standard.url
-          } else if (playlist.snippet.thumbnails.high) {
-            playlist.image = playlist.snippet.thumbnails.high.url
-          } else if (playlist.snippet.thumbnails.medium) {
-            playlist.image = playlist.snippet.thumbnails.medium.url
-          } else {
-            playlist.image = playlist.snippet.thumbnails.default.url
-          }
-        })
+          // Get the video ID of the random video
+          const videoId = videos[randomIndex].snippet.resourceId.videoId;
+          console.log('random video', videoId)
+
+          let url = `/playlists/${data.playlistId}/${videoId}`
+          console.log('redirect', url)
+
+          // Redirect the user to the random video in the playlist
+          window.location.href = url;
+          
+        }, 6000)
       }).catch(error => {
         console.log(error);
         return [];
