@@ -1,7 +1,11 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+
+  import Header from '$lib/header.svelte'
+  import Footer from '$lib/footer.svelte'
 
   /** @type {import('./$types').PageData} */
-  export let data;
+  export let data: any;
 
   console.log('data.videoId', data.videoId)
 
@@ -9,42 +13,99 @@
   const API_KEY = 'AIzaSyCmD-wH1cpFeoG-9ZDrqZJUzeLILtWyJIM' // 'YOUR_API_KEY';
   const VIDEO_ID = data.videoId // 'YOUR_VIDEO_ID';
 
-  let videoDuration = null;
+  let videoDuration: any = null;
+  let secondsRemaining: any = null;
 
-  async function getVideoInfo() {
-    try {
-      const response = await fetch(
-        `https://www.googleapis.com/youtube/v3/videos?id=${VIDEO_ID}&key=${API_KEY}&part=contentDetails`
-      );
-      const data = await response.json();
-
-      console.log('getVideoInfo', data)
-
-      if (data.items && data.items.length > 0) {
-        videoDuration = data.items[0].contentDetails.duration;
-      }
-    } catch (error) {
-      console.error('Failed to retrieve video information.', error);
+  function youtubeDurationToSeconds(duration) {
+    // Ensure the duration is in the correct format
+    if (!/^PT(\d+H)?(\d+M)?(\d+S)?$/.test(duration)) {
+      throw new Error('Invalid YouTube duration format');
     }
+
+    // Extract hours, minutes, and seconds from the duration
+    const hours = duration.match(/(\d+)H/) || [];
+    const minutes = duration.match(/(\d+)M/) || [];
+    const seconds = duration.match(/(\d+)S/) || [];
+
+    // Parse the numeric values and calculate the total duration in seconds
+    const totalSeconds = (parseInt(hours[1]) || 0) * 3600 +
+                        (parseInt(minutes[1]) || 0) * 60 +
+                        (parseInt(seconds[1]) || 0);
+
+    return totalSeconds;
   }
 
-  getVideoInfo();
+
+  onMount(() => {
+    setInterval(() => {
+      secondsRemaining = secondsRemaining - 1
+    }, 1000)
+
+    async function getVideoInfo() {
+      try {
+        const response = await fetch(
+          `https://www.googleapis.com/youtube/v3/videos?id=${VIDEO_ID}&key=${API_KEY}&part=contentDetails`
+        );
+        const data = await response.json();
+  
+        console.log('getVideoInfo', data)
+  
+        if (data.items && data.items.length > 0) {
+          videoDuration = data.items[0].contentDetails.duration;
+          secondsRemaining = youtubeDurationToSeconds(videoDuration)
+
+          setTimeout(() => {
+            window.location.href = '/live-now'
+          }, (secondsRemaining + 5) * 1000)
+        }
+      } catch (error) {
+        console.error('Failed to retrieve video information.', error);
+      }
+    }
+  
+    getVideoInfo();
+  })
+
 </script>
 
-<h1>RRABBIT</h1>
-<p>RRABBIT was a DJ/Performer/Artist at underground raves in 1998-early 2000's. Known for playing controversial/complicated music.</p>
 
-<iframe 
-  width="560" 
-  height="315" 
-  src={`https://www.youtube.com/embed/${data.videoId}`} 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  allowfullscreen
->
-</iframe>
+<div class="container">
+  <Header />
+  <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
+  <a href={`/playlists/${data.playlistId}`} target="_self"><button class="back">PLAYLIST</button></a> {secondsRemaining}
+  <br />
+  <br />
 
-<br />
-<br />
-<a href="/playlists/pandoras-box">PANDORAS BOX</a> {videoDuration}
+  <iframe 
+    width="900" 
+    height="500" 
+    src={`https://www.youtube.com/embed/${data.videoId}?autoplay=1`} 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen
+  >
+  </iframe>
+
+  <br />
+  <br />
+  <Footer />
+</div>
+
+
+<style>
+  .container {
+    width: 900px;
+    margin: 0 auto;
+    background: #111;
+    padding: 1em;
+    color: #ccc;
+  }
+
+  .back {
+    padding: 0.5em;
+    cursor: pointer;
+    background: #555;
+    border: none;
+  }
+</style>
