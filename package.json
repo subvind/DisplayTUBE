@@ -9,7 +9,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"getChannel": "node ./backend/getChannel.js",
-		"getPlaylists": "node ./backend/getPlaylists.js"
+		"getPlaylists": "node ./backend/getPlaylists.js",
+		"getPlaylist": "node ./backend/getPlaylist.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",

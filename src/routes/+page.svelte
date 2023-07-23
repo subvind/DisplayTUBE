@@ -89,8 +89,8 @@
     fetch(`/data/playlists/${featuredPlaylistId}.json`)
       .then(response => response.json())
       .then(results => {
-        console.log(`${featuredPlaylistId}.json`, results.items)
-        let videos = results.items
+        console.log(`${featuredPlaylistId}.json`, results)
+        let videos = results
         setTimeout(() => {
           loadInline(videos)
         }, 0)
