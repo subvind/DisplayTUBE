@@ -1,6 +1,6 @@
 {
   "kind": "youtube#playlistListResponse",
-  "etag": "Oel81TRbufUmm7QwdL8LNFZv9qA",
+  "etag": "mnG6oCe_WNEAtpJ7sR7lFUo11a8",
   "pageInfo": {
     "totalResults": 15,
     "resultsPerPage": 25
@@ -8,7 +8,7 @@
   "items": [
     {
       "kind": "youtube#playlist",
-      "etag": "lHEp_hHpQfkCM0JnrERInlprlE0",
+      "etag": "A4pkwQ4lOUyvlFa3ihCZoToqa0Q",
       "id": "PLtoxeJ0aVT65WglaX_7xgHPMW-XvgTz1E",
       "snippet": {
         "publishedAt": "2023-07-17T15:07:24Z",
@@ -43,13 +43,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 3
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT65WglaX_7xgHPMW-XvgTz1E\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "AHtTS-oFaRd80GZHVgAx0QLcK3I",
+      "etag": "Uk2nxpn2iYVdSS-lWUyXECNMWL4",
       "id": "PLtoxeJ0aVT6705WjpXjV1y-WO_l3sUnR5",
       "snippet": {
         "publishedAt": "2023-07-14T17:27:35Z",
@@ -89,13 +95,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 2
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT6705WjpXjV1y-WO_l3sUnR5\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "rsFNmlmS3YfdJbpQAEUSmFjAngo",
+      "etag": "zk1glPnTxEPwEJbmP74OolwafYw",
       "id": "PLtoxeJ0aVT66OUKJxGlLOo_OK2I2FL4oS",
       "snippet": {
         "publishedAt": "2023-07-07T19:38:30Z",
@@ -135,13 +147,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 1
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT66OUKJxGlLOo_OK2I2FL4oS\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "6KBKM-UmndUc71QNMXNaGsKN25Y",
+      "etag": "-pRlgS1tpzQOO2Fg5VsqqArbCbA",
       "id": "PLtoxeJ0aVT67p3i-nUKoyL-n9m9KOFtWo",
       "snippet": {
         "publishedAt": "2023-06-27T22:23:18Z",
@@ -176,13 +194,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 1
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT67p3i-nUKoyL-n9m9KOFtWo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "60dMmuI2VY3FHXVYkIdyD984biE",
+      "etag": "fgF8t_5gWFH6PJ_qPL6Z90g-nB8",
       "id": "PLtoxeJ0aVT67pzPlrvNVfPedtJv4vPBOj",
       "snippet": {
         "publishedAt": "2023-06-24T16:41:39Z",
@@ -222,13 +246,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 3
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT67pzPlrvNVfPedtJv4vPBOj\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "RYt-P6akKJRVqP5MLCCaE1KsU8Y",
+      "etag": "epQB7uuYVdYLHaAs_n2iFXWdEzQ",
       "id": "PLtoxeJ0aVT65O6h4J_qDsWbOIY43ofvg1",
       "snippet": {
         "publishedAt": "2023-01-13T23:45:59Z",
@@ -268,13 +298,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 4
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT65O6h4J_qDsWbOIY43ofvg1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "vn91Ibqae2WGE0Mv80eQCi__1to",
+      "etag": "P9pbnAFXFOGR_6_xjdVds1bu4cc",
       "id": "PLtoxeJ0aVT65p7yjtDUPuOLFgZ71YbkKf",
       "snippet": {
         "publishedAt": "2023-01-04T17:23:50Z",
@@ -314,13 +350,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 14
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT65p7yjtDUPuOLFgZ71YbkKf\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "Ehu666hFBxH_6KYXt61H-ZVHovY",
+      "etag": "03K38tgmIuwaQfuDKYPEOp-fIi0",
       "id": "PLtoxeJ0aVT66PItrb9U33t6BM1z4KxL2-",
       "snippet": {
         "publishedAt": "2023-01-03T00:27:35Z",
@@ -360,13 +402,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 3
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT66PItrb9U33t6BM1z4KxL2-\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "wgoq3pEOKi3WQm4xVxVLmpOy_XA",
+      "etag": "nv6D5wg8_1mDA_rkGlrvmytteaw",
       "id": "PLtoxeJ0aVT64nNSz7QnXp8G21nppHVLTB",
       "snippet": {
         "publishedAt": "2022-12-22T10:07:50Z",
@@ -396,13 +444,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "public"
+      },
       "contentDetails": {
         "itemCount": 9
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT64nNSz7QnXp8G21nppHVLTB\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "4ACCvLPSvD21rFCvsy8JM0evWfY",
+      "etag": "RcadWrK1tjwsSOMkR5Phh0nupcw",
       "id": "PLtoxeJ0aVT65LWfUK6YRg0D8tHSNK1gtT",
       "snippet": {
         "publishedAt": "2022-12-14T04:33:22Z",
@@ -442,13 +496,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 2
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT65LWfUK6YRg0D8tHSNK1gtT\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "ipozmN7qzwVFDwSOdywkC3yc0Nw",
+      "etag": "pGMkNgS-tu57ETGmGdqGsnbrbIE",
       "id": "PLtoxeJ0aVT670BoNcI9x70HeKixrgoQ2Y",
       "snippet": {
         "publishedAt": "2022-12-12T23:08:33Z",
@@ -478,13 +538,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "private"
+      },
       "contentDetails": {
         "itemCount": 7
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT670BoNcI9x70HeKixrgoQ2Y\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "pkaXBxyGTzxMTZvJK42DV09fISc",
+      "etag": "YdrA77C7wvI0M3fVcTpzFYsG27E",
       "id": "PLtoxeJ0aVT65ttbULyskL3U-O9ugmNKiO",
       "snippet": {
         "publishedAt": "2022-12-09T17:45:07Z",
@@ -524,13 +590,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "public"
+      },
       "contentDetails": {
         "itemCount": 5
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT65ttbULyskL3U-O9ugmNKiO\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "pJ5iVYqsNBoj1Dw-rWXu66xOvHE",
+      "etag": "5R8tL5se-mkbop0dWZgnyEmNnmk",
       "id": "PLtoxeJ0aVT66lQb1SDTYGwRvT8y9vIDLP",
       "snippet": {
         "publishedAt": "2022-12-09T16:45:56Z",
@@ -570,13 +642,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "public"
+      },
       "contentDetails": {
         "itemCount": 4
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT66lQb1SDTYGwRvT8y9vIDLP\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "vj6U-EfWEuhvu4Ayxpi3Nx8Zdjo",
+      "etag": "AdHgpoacIc0RYdplcQXg5zNsSb0",
       "id": "PLtoxeJ0aVT64Iisp8yIKsuUQi6ZJVV0OT",
       "snippet": {
         "publishedAt": "2022-11-30T20:42:11Z",
@@ -611,13 +689,19 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "public"
+      },
       "contentDetails": {
         "itemCount": 5
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT64Iisp8yIKsuUQi6ZJVV0OT\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     },
     {
       "kind": "youtube#playlist",
-      "etag": "iz9rTrVZyLCnMQi-aI-iKTfZ2lc",
+      "etag": "tJff5SBoNcfaGZwsXiNQSYo-iRI",
       "id": "PLtoxeJ0aVT66PjdmRzdCKZJV7OsnUFbNi",
       "snippet": {
         "publishedAt": "2017-01-05T13:16:46Z",
@@ -647,8 +731,14 @@
           "description": ""
         }
       },
+      "status": {
+        "privacyStatus": "public"
+      },
       "contentDetails": {
         "itemCount": 5
+      },
+      "player": {
+        "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLtoxeJ0aVT66PjdmRzdCKZJV7OsnUFbNi\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen\u003e\u003c/iframe\u003e"
       }
     }
   ]

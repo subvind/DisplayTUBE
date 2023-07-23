@@ -20,11 +20,21 @@
     console.log(val)
     let dynamicEl: any = []
     items.forEach((item: any) => {
+      let image = ''
+      if (item.snippet.thumbnails.standard) {
+        image = item.snippet.thumbnails.standard.url
+      } else if (item.snippet.thumbnails.high) {
+        image = item.snippet.thumbnails.high.url
+      } else if (item.snippet.thumbnails.medium) {
+        image = item.snippet.thumbnails.medium.url
+      } else {
+        image = item.snippet.thumbnails.default.url
+      }
       dynamicEl.push({
-        src: item.snippet.thumbnails.default.url,
-        thumb: item.snippet.thumbnails.default.url,
-        subHtml: `<div class="lightGallery-captions">
-          <p>${item.snippet.title}</p>
+        src: image,
+        thumb: image,
+        subHtml: `<div class="lightGallery-captions" style="padding: 0.5em; background-color:rgba(0, 0, 0, 0.75);">
+          <p style="font-size: 1em;">${item.snippet.title}</p>
           <br />
           <a href="/playlists/${featuredPlaylistId}/${item.snippet.resourceId.videoId}">
             <button style="padding: 0.5em; cursor: pointer; font-size: 1em;">watch video</button>
@@ -81,7 +91,7 @@
     fetch(`/data/playlists/${featuredPlaylistId}.json`)
       .then(response => response.json())
       .then(results => {
-        console.log('results.items', results.items)
+        console.log(`${featuredPlaylistId}.json`, results.items)
         let videos = results.items
         setTimeout(() => {
           loadInline(videos)
@@ -94,14 +104,26 @@
     fetch("/data/playlists.json")
       .then(response => response.json())
       .then(results => {
-        console.log('results.items', results.items)
+        console.log('playlists.json', results.items)
         // find a common thumbnail
         // results.items.forEach((key, value) => {
 
         // })
         playlists = results.items
-        setTimeout(() => {
 
+        playlists.forEach((playlist: any) => {
+          if (playlist.snippet.thumbnails.standard) {
+            playlist.image = playlist.snippet.thumbnails.standard.url
+          } else if (playlist.snippet.thumbnails.high) {
+            playlist.image = playlist.snippet.thumbnails.high.url
+          } else if (playlist.snippet.thumbnails.medium) {
+            playlist.image = playlist.snippet.thumbnails.medium.url
+          } else {
+            playlist.image = playlist.snippet.thumbnails.default.url
+          }
+        })
+
+        setTimeout(() => {
           loadGallery()
         }, 0)
       }).catch(error => {
@@ -122,8 +144,14 @@
   <h3>Created playlists</h3>
   <div id="thumbnails-gallery" class="thumbnails-gallery">
     {#each playlists as playlist}
-      <a href={playlist.snippet.thumbnails.medium.url} data-lg-size="1024-800">
-        <img alt={playlist.snippet.title} src={playlist.snippet.thumbnails.medium.url}/>
+      <a href={playlist.image} data-lg-size="1024-800" data-sub-html={`<p style="font-size: 1em;">${playlist.snippet.title}</p>
+        <br />
+        <a href="/playlists/${playlist.id}" target="_self">
+          <button style="padding: 0.5em; cursor: pointer; font-size: 1em;">watch playlist</button>
+        </a>
+        <br />
+        <br />`}>
+        <img alt={playlist.snippet.title} src={playlist.image} />
       </a>
     {/each}
   </div>
@@ -151,5 +179,13 @@
     width: calc(94% / 3);
     margin: 0.5em;
     overflow: hidden;
+  }
+  .thumbnails-gallery img {
+    width: 100%;
+  }
+
+  :global(.lg-sub-html) {
+    margin: 0;
+    padding: 0;
   }
 </style>
