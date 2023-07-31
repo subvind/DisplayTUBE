@@ -10,7 +10,7 @@
 
   let uploads: any = [];
   let playlists: any = [];
-  let featuredPlaylistId = 'PL8jttWWzHosfGqAmJjE-Sh50dQGe-ELQX'
+  let featuredPlaylistId = 'PLtoxeJ0aVT670BoNcI9x70HeKixrgoQ2Y'
       
   function loadInline (items: any) {
     let val: HTMLElement = document.getElementById('inline-gallery-container') || Object.create(HTMLElement)
