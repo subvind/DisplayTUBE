@@ -1,0 +1,49 @@
+[
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "OiY4ZTOd70BCTYJ9rT295asb2QA",
+    "id": "UEx0b3hlSjBhVlQ2NDM5RkVfYmkxNDdfVW5ibTlsbnZzNS41NkI0NEY2RDEwNTU3Q0M2",
+    "snippet": {
+      "publishedAt": "2023-07-26T21:20:05Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Conversational ERP – Lesson 1 – What is ERP (15m)",
+      "description": "Looking for a step-by-step walk-through of an Enterprise Resource Planning (ERP) solution? \n\nIn this video, Glen Moffatt (Director, Digital Core Field Enablement, North America, SAP) explains and demonstrates:\n• What is ERP\n• Business processes, such as Order-to-Cash and Procure-to-Pay\n• Conversational ERP\n\n\nTo learn more about SAP S/4HANA Cloud, look here: https://www.sap.com/products/s4hana-erp-cloud.html \nTo learn more about ERP, look here: https://www.sap.com/products/what-is-erp.html",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/kGQ1fNQVbj8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/kGQ1fNQVbj8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/kGQ1fNQVbj8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/kGQ1fNQVbj8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/kGQ1fNQVbj8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT6439FE_bi147_Unbm9lnvs5",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "kGQ1fNQVbj8"
+      },
+      "videoOwnerChannelTitle": "SAP Products & Services",
+      "videoOwnerChannelId": "UC8cXSTGDhiZK5229zi-KTXA"
+    }
+  }
+]

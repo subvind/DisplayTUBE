@@ -29,7 +29,7 @@ async function getChannelPlaylists(apiKey, channelId) {
 
 // Replace YOUR_API_KEY with your actual YouTube Data API key
 const apiKey = 'AIzaSyCmD-wH1cpFeoG-9ZDrqZJUzeLILtWyJIM';
-const channelId = 'UC9VI8tMugRuayae1wIm9Zjg';
+const channelId = 'UCwcibF78LrLQBpfvlApvgKg';
 
 getChannelPlaylists(apiKey, channelId)
   .then(playlists => {

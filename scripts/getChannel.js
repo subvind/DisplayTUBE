@@ -41,7 +41,7 @@ async function getChannelId(apiKey, username) {
 
 // Replace YOUR_API_KEY with your actual YouTube Data API key
 const apiKey = 'AIzaSyCmD-wH1cpFeoG-9ZDrqZJUzeLILtWyJIM';
-const username = 'RRABBITmusic';
+const username = 'subvind';
 
 getChannelId(apiKey, username)
   .then(channel => {

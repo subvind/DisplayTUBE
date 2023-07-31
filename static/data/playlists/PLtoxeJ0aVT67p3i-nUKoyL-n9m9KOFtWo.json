@@ -1,0 +1,44 @@
+[
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "6po3eYv4iZNi3tVQqGaSXgSMvXE",
+    "id": "UEx0b3hlSjBhVlQ2N3AzaS1uVUtveUwtbjltOUtPRnRXby41NkI0NEY2RDEwNTU3Q0M2",
+    "snippet": {
+      "publishedAt": "2023-06-27T22:23:18Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "FOL (First Order Logic)",
+      "description": "Introduction, concepts, definitions and the general idea. This depends on you having watched the videos about propositional logic.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/73AUBVOW-sM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/73AUBVOW-sM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/73AUBVOW-sM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/73AUBVOW-sM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT67p3i-nUKoyL-n9m9KOFtWo",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "73AUBVOW-sM"
+      },
+      "videoOwnerChannelTitle": "Francisco Iacobelli",
+      "videoOwnerChannelId": "UCzO8FFsWxGdzr1rMAPtbUog"
+    }
+  }
+]
