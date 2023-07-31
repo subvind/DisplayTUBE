@@ -32,7 +32,7 @@ const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   );
   $$result.css.add(css);
   return `<div class="container svelte-nkt1wx"><hr class="svelte-nkt1wx"> <br> <span style="float: right;">${escape(date.toLocaleString("en-IN", options))}</span>
-  rrabbitmusic.com © ${escape((/* @__PURE__ */ new Date()).getFullYear())}.
+  subvind.com © ${escape((/* @__PURE__ */ new Date()).getFullYear())}.
   <br> <br></div> <br> <br> <br> <br> <br> <br> <br> <br>`;
 });
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {

@@ -20,7 +20,7 @@
   <hr>
   <br />
   <span style="float: right;">{date.toLocaleString('en-IN', options)}</span>
-  rrabbitmusic.com © {new Date().getFullYear()}.
+  subvind.com © {new Date().getFullYear()}.
   <br />
   <br />
 </div>
