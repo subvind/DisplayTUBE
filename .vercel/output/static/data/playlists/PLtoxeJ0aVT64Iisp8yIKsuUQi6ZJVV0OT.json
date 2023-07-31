@@ -1,0 +1,232 @@
+[
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "-TbDX9kGDTHQjTQESG1AAOY2yFE",
+    "id": "UEx0b3hlSjBhVlQ2NElpc3A4eUlLc3VVUWk2WkpWVjBPVC41NkI0NEY2RDEwNTU3Q0M2",
+    "snippet": {
+      "publishedAt": "2022-11-30T20:42:11Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Stanford engineers build a water-droplet based computer that runs like clockwork",
+      "description": "Manu Prakash, an assistant professor of bioengineering at Stanford, and his students have developed a synchronous computer that operates using the unique physics of moving water droplets. Their goal is to design a new class of computers that can precisely control and manipulate physical matter. For more info: http://news.stanford.edu/news/2015/june/computer-water-drops-060815.html\n\nMusic:  “Union Hall Melody” by Blue Dot Sessions\n\nhttps://freemusicarchive.org/music/Blue_Dot_Sessions/Union_Hall/Union_Hall_Melody",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/m5WodTppevo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/m5WodTppevo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/m5WodTppevo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/m5WodTppevo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT64Iisp8yIKsuUQi6ZJVV0OT",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "m5WodTppevo"
+      },
+      "videoOwnerChannelTitle": "Stanford",
+      "videoOwnerChannelId": "UC-EnprmCZ3OXyAoG7vjVNCA"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "nfmJhHIToxXLtHWKp2LnrZMlWMQ",
+    "id": "UEx0b3hlSjBhVlQ2NElpc3A4eUlLc3VVUWk2WkpWVjBPVC4yODlGNEE0NkRGMEEzMEQy",
+    "snippet": {
+      "publishedAt": "2022-12-01T04:03:24Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "MIT develops technology to digitally program water droplets",
+      "description": "Researchers from MIT are developing a technology that transforms water droplets into programmable, interactive tools for entertainment and communication.\n\nThe new Programmable Droplets technology is designed to enable users to digitally program water droplets, taken from our everyday environment, and manipulate them via a computer interface.\n\nThe project is being led by researcher Udayan Umapathi and professor Hiroshi Ishii from the university's Tangible Media Group.\n\nThey hope the new technology will demonstrate the potential for water as an interactive medium for creativity, art, entertainment and communication, to better connect people to their physical environment.\n\nRead more on Dezeen: http://www.dezeen.com/?p=1209827\n\nWATCH NEXT: MIT researchers develop temporary tattoos that can control smartphones - https://youtu.be/GVt7v4rQ2JI\n\nSubscribe to our YouTube channel for the latest architecture and design movies: http://bit.ly/1tcULvh\n\nLike Dezeen on Facebook: https://www.facebook.com/dezeen/\nFollow Dezeen on Twitter: https://twitter.com/Dezeen/\nFollow us on Instagram: https://www.instagram.com/dezeen/\nCheck out our Pinterest: https://uk.pinterest.com/dezeen/",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/s2fdY44QFv4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/s2fdY44QFv4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/s2fdY44QFv4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/s2fdY44QFv4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/s2fdY44QFv4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT64Iisp8yIKsuUQi6ZJVV0OT",
+      "position": 1,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "s2fdY44QFv4"
+      },
+      "videoOwnerChannelTitle": "Dezeen",
+      "videoOwnerChannelId": "UCsWG9ANbrmgR0z-eFk_A3YQ"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "FjX5qHDT0-rRDvXTasr5AVHcGLA",
+    "id": "UEx0b3hlSjBhVlQ2NElpc3A4eUlLc3VVUWk2WkpWVjBPVC4wMTcyMDhGQUE4NTIzM0Y5",
+    "snippet": {
+      "publishedAt": "2022-12-01T04:15:11Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Making Money Flow: The MONIAC",
+      "description": "Introducing Bill Phillips' amazing hydro-mechanical economic computer. A live demonstration of the only working MONIAC in the Southern Hemisphere. This is located in the Reserve Bank Museum & Education Centre, Wellington, New Zealand.\nDirections to the Museum: http://www.rbnzmuseum.govt.nz/visitus/FindUs.aspx\n\nTo try a virtual MONIAC, visit http://www.rbnzmuseum.govt.nz/activities/moniac/introduction.aspx\n\nFor directions and Museum hours see http://www.rbnzmuseum.govt.nz/visitus/FindUs.aspx",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/rAZavOcEnLg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rAZavOcEnLg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rAZavOcEnLg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rAZavOcEnLg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/rAZavOcEnLg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT64Iisp8yIKsuUQi6ZJVV0OT",
+      "position": 2,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "rAZavOcEnLg"
+      },
+      "videoOwnerChannelTitle": "Reserve Bank of New Zealand",
+      "videoOwnerChannelId": "UC1v0CeB83SX6Px9r5KT0NuQ"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "RIR5PZ_obfbirCTngTO5hsEDdKA",
+    "id": "UEx0b3hlSjBhVlQ2NElpc3A4eUlLc3VVUWk2WkpWVjBPVC41MjE1MkI0OTQ2QzJGNzNG",
+    "snippet": {
+      "publishedAt": "2022-12-01T21:19:26Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Man Builds Marble Run in 27 minutes // Start to Finish TIMELAPSE",
+      "description": "9 months of very hard and complex work in one very watchable video.\n\nThis RBS is made from copper wire and contains 1/2 inch steel balls.  The balls weave their way down various tracks via switches, spirals and fast bumpy corners.\n\nFull details of the build is covered in multiple individual videos that you can in this YouTube channel.  There is also a playlist from 1-28 of these.\n\nThe most common question I get asked is the soldering iron I use.  I use a resistance solder iron.  Click this link for more details.....\nhttps://youtu.be/AzvHfxxzqh8\n\nPlease subscribe to my channel for more RBS videos.  I'm currently working on RBS4.\nhttps://www.youtube.com/channel/UCoDBDjM-06_4KgnyCXZCBuw?sub-confirmation=1\n\nWant to buy my RBS ?  Click this link to check stock....\nhttps://www.etsy.com/uk/shop/CopperGravity\n\nEmail me copper.gravity@yahoo.com\n\n#RBS #RollingBall #MarbleRun #Soldering #Copper #Art #Sculpture #Craft #Makers #CopperWire #Timelapse",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/r-wshHO6lss/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/r-wshHO6lss/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/r-wshHO6lss/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/r-wshHO6lss/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/r-wshHO6lss/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT64Iisp8yIKsuUQi6ZJVV0OT",
+      "position": 3,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "r-wshHO6lss"
+      },
+      "videoOwnerChannelTitle": "Copper-Gravity",
+      "videoOwnerChannelId": "UCoDBDjM-06_4KgnyCXZCBuw"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "2G335sKQqeso_EeikPGrKpRNlsc",
+    "id": "UEx0b3hlSjBhVlQ2NElpc3A4eUlLc3VVUWk2WkpWVjBPVC4wOTA3OTZBNzVEMTUzOTMy",
+    "snippet": {
+      "publishedAt": "2022-12-01T23:19:25Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Inside The Navy's Indoor Ocean",
+      "description": "The US Navy has an indoor ocean that can simulate any wave in the world. This video is sponsored by Brilliant. You can get started for free, or the first 200 people to sign up via https://brilliant.org/veritasium get 20% off a yearly subscription. \n\n▀▀▀\nThanks to Kelley Stirling and the Naval Surface Warfare Center, Carderock Division for the visit. \nThanks to Miguel Quintero and Capt. Todd E. Hutchison for talking to us about the important work going on in the Maneuvering and Seakeeping Basin.\nThanks to Dr. Georgy Manucharyan at the University of Washington for his help in understanding ocean waves.\n\n▀▀▀\nReferences:\n\nWebb, P. (2017). Introduction to Oceanography. Chapter 10: Waves. Online OER textbook. – https://ve42.co/Webb2017\nStewart, R. (2008). Introduction to Physical Oceanography. – https://ve42.co/Stewart2008\nvan den Bremer, T. S. & Breivik, Ø. (2018). Stokes drift. Phil. Trans. R. Soc. A. – https://ve42.co/Bremer2017\nMonismith, S. (2020). Stokes drift: Theory and experiments. Journal of Fluid Mechanics, 884, F1. – https://ve42.co/Monismith2020\nYoung, I. R. (1999). Wind Generated Ocean Waves. Elsevier. p. 83. – https://ve42.co/Young1999\nWright, P. Island Physics. 4.2 Formation of Waves – https://ve42.co/IslandPhysics\nAmerican Bureau of Shipping. (2016). Guidance Notes on Selecting Design Wave by Long Term Stochastic Method. – https://ve42.co/ABS2016\nJames, S. & Stull, R. (2019). Wave Characteristics. UBC ATSC 113 - Weather for Sailing, Flying & Snow Sports. – https://ve42.co/James2019\nGarrison, T. (2009). Oceanography: An Invitation to Marine Science (7th ed). – https://ve42.co/Garrison2009\n\n▀▀▀\nSpecial thanks to our Patreon supporters:\nJames Sanger, Louis Lebbos, Elliot Miller, Brian Busbee, Jerome Barakos M.D., Amadeo Bee, TTST, Balkrishna Heroor, Chris LaClair, John H. Austin Jr., OnlineBookClub.org, Matthew Gonzalez, Eric Sexton, John Kiehl, Diffbot, Gnare, Dave Kircher, Burt Humburg, Blake Byers, Evgeny Skvortsov, Meekay, Bill Linder, Paul Peijzel, Josh Hibschman, Mac Malkawi, Mike Schneider, John Bauer, Jim Buckmaster, Juan Benet, Sunil Nagaraj, Richard Sundvall, Lee Redden, Stephen Wilcox, Marinus Kuivenhoven, Michael Krugman, Cy 'kkm' K'Nelson, Sam Lutfi\n\n▀▀▀\nWritten by Derek Muller & Emily Zhang\nEdited by Fabio Albertelli\nAnimation by Ivy Tello & Mike Radjabov\nFilmed by Derek Muller & Emily Zhang\nAdditional video/photos supplied by Pond5 & Getty Images\nMusic from Epidemic Sound \nProduced by Derek Muller, Petr Lebedev, and Emily Zhang",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/pir_muTzYM8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/pir_muTzYM8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/pir_muTzYM8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/pir_muTzYM8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/pir_muTzYM8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT64Iisp8yIKsuUQi6ZJVV0OT",
+      "position": 4,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "pir_muTzYM8"
+      },
+      "videoOwnerChannelTitle": "Veritasium",
+      "videoOwnerChannelId": "UCHnyfMqiRRG1u-2MsSQLbXA"
+    }
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "y9QQiyjJQ7-XQxeLt4Fd1ZGidSw",
+    "id": "UEx0b3hlSjBhVlQ2NzA1V2pwWGpWMXktV09fbDNzVW5SNS41NkI0NEY2RDEwNTU3Q0M2",
+    "snippet": {
+      "publishedAt": "2023-07-14T17:27:35Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "What is a message queue?",
+      "description": "In this video I explain message queues.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/wfZ4u8cl8ZI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT6705WjpXjV1y-WO_l3sUnR5",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "wfZ4u8cl8ZI"
+      },
+      "videoOwnerChannelTitle": "Fredrik Christenson",
+      "videoOwnerChannelId": "UC0BAd8tPlDqFvDYBemHcQPQ"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "zwWvg5Q8WZh-TEofyDRDQRFBKbA",
+    "id": "UEx0b3hlSjBhVlQ2NzA1V2pwWGpWMXktV09fbDNzVW5SNS4yODlGNEE0NkRGMEEzMEQy",
+    "snippet": {
+      "publishedAt": "2023-07-14T17:28:00Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "What is a Message Queue and When should you use Messaging Queue Systems Like RabbitMQ and Kafka",
+      "description": "Message Queues system like RabbitMQ and Kafka are amazing technologies but when should you actually use a message queue? I discuss this in this video.\n\nKafka Course https://youtu.be/R873BlNVUB4\nRabbitMQ Course https://youtu.be/Cie5v59mrTg\nPub/Sub Video https://youtu.be/O1PgqUqZKTA\n\n🏭 Software Architecture Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9\n\n💾 Database Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2\n\n🛰 Network Engineering Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr\n\n🏰 Load Balancing and Proxies Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC\n\n🐘 Postgres Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj\n\n🚢Docker\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r\n\n🧮 Programming Pattern Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe\n\n🛡 Web Security Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv\n\n🦠 HTTP Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO\n\n🐍 Python Videos\nhttps://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX\n\n🔆 Javascript Videos \nhttps://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM\n\n👾Discord Server https://discord.gg/CsFbFce\n\nSupport me on PayPal\nhttps://bit.ly/33ENps4\n\nBecome a Patreon\nhttps://www.patreon.com/join/hnasr?\n\nStay Awesome,\nHussein",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/W4_aGb_MOls/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/W4_aGb_MOls/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/W4_aGb_MOls/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/W4_aGb_MOls/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT6705WjpXjV1y-WO_l3sUnR5",
+      "position": 1,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "W4_aGb_MOls"
+      },
+      "videoOwnerChannelTitle": "Hussein Nasser",
+      "videoOwnerChannelId": "UC_ML5xP23TOWKUcc-oAE_Eg"
+    }
+  }
+]

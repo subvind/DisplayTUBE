@@ -1,0 +1,143 @@
+[
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "FI_PRg7utoUYeq77L2QBOz-_dEo",
+    "id": "UEx0b3hlSjBhVlQ2N3B6UGxydk5WZlBlZHRKdjR2UEJPai41NkI0NEY2RDEwNTU3Q0M2",
+    "snippet": {
+      "publishedAt": "2023-06-24T16:41:39Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Procedural Macros in Rust",
+      "description": "The ultimate Rust lang tutorial. Follow along as we go through the Rust lang book chapter by chapter.\n\n📝 Get your FREE Rust cheat sheet: https://letsgetrusty.com/cheatsheet\n\nThe Rust book: https://doc.rust-lang.org/stable/book/​​\n\nChapters:\n0:00​ Intro\n0:42 Procedural Macros\n9:09 Attribute-like macros\n10:19 Function-like macros\n10:58  Outro\n\n#letsgetrusty​​ #rust​lang​ #tutorial",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/crWfcA064is/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/crWfcA064is/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/crWfcA064is/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/crWfcA064is/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/crWfcA064is/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT67pzPlrvNVfPedtJv4vPBOj",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "crWfcA064is"
+      },
+      "videoOwnerChannelTitle": "Let's Get Rusty",
+      "videoOwnerChannelId": "UCSp-OaMpsO8K0KkOqyBl7_w"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "t9qWEtGrXMycWDsebrCPfrKAcQE",
+    "id": "UEx0b3hlSjBhVlQ2N3B6UGxydk5WZlBlZHRKdjR2UEJPai4yODlGNEE0NkRGMEEzMEQy",
+    "snippet": {
+      "publishedAt": "2023-06-24T16:49:57Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Declarative Macros in Rust",
+      "description": "The ultimate Rust lang tutorial. Follow along as we go through the Rust lang book chapter by chapter.\n\n📝 Get your FREE Rust cheat sheet: https://letsgetrusty.com/cheatsheet\n\nThe Rust book: https://doc.rust-lang.org/stable/book/\n\n\nThe Little Book of Rust Macros: https://veykril.github.io/tlborm/\nWARNING: This book hasn't been updated in 6 years. \n\n\nChapters:\n0:00​ Intro\n0:18 Macros and Functions Difference\n1:48 Declarative Macros\n6:20 Outro\n\n#letsgetrusty​​ #rust​lang​ #tutorial",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/KsJHlqULpO4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KsJHlqULpO4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KsJHlqULpO4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/KsJHlqULpO4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/KsJHlqULpO4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT67pzPlrvNVfPedtJv4vPBOj",
+      "position": 1,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "KsJHlqULpO4"
+      },
+      "videoOwnerChannelTitle": "Let's Get Rusty",
+      "videoOwnerChannelId": "UCSp-OaMpsO8K0KkOqyBl7_w"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "bFl7Ykh4wlSaNfjRNdruxCZ_aI0",
+    "id": "UEx0b3hlSjBhVlQ2N3B6UGxydk5WZlBlZHRKdjR2UEJPai4wMTcyMDhGQUE4NTIzM0Y5",
+    "snippet": {
+      "publishedAt": "2023-06-24T20:50:20Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Crust of Rust: Declarative Macros",
+      "description": "In this second Crust of Rust video, we cover declarative macros, macro_rules!, by re-implementing the vec! macro from the standard library. As part of that, we cover not only how to write these, but some of the gotchas and tricks you'll run into, and some common use-cases.\n\nYou can find the final code at https://gist.github.com/jonhoo/ec57882a976a2d2a92b3138ea25cd45a, and the Little Book of Rust Macros at https://danielkeep.github.io/tlborm/book/index.html.\n\n0:00:00 Introduction\n0:01:35 The vec macro\n0:04:08 The Little Book of Rust Macros\n0:05:17 Macro syntax and hygiene\n0:16:42 The empty vector\n0:19:26 Non-empty vectors\n0:25:50 Macros v2\n0:26:34 Macro delimiters\n0:27:54 Declarative vs procedural macros\n0:30:15 Repeated macro arguments\n0:39:49 Trailing commas\n0:44:10 Why are macros useful?\n0:47:29 Vector by repetition\n0:51:02 Macro rules readability\n0:52:00 Invalid macro inputs\n0:54:52 Test that something doesn't compile\n0:56:50 Tidying up the patterns\n0:59:05 Reallocations for repetition constructor\n1:04:08 Macro argument trait bounds\n1:06:40 \"use\" hygiene in macros\n1:08:28 The standard library pattern\n1:10:20 The need for counting\n1:11:38 Eager macro errors\n1:13:00 Counting in macros\n1:24:48 Other ways of counting\n1:27:27 Ensuring count is computed at compile time\n1:28:32 Hiding internal macro patterns\n1:31:13 Other collection literals\n1:33:00 Comparing against the std implementation\n\nYou can watch the live version with comments at https://www.youtube.com/watch?v=UIY75ohrqKQ",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/q6paRBbLgNw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/q6paRBbLgNw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/q6paRBbLgNw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/q6paRBbLgNw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/q6paRBbLgNw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT67pzPlrvNVfPedtJv4vPBOj",
+      "position": 2,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "q6paRBbLgNw"
+      },
+      "videoOwnerChannelTitle": "Jon Gjengset",
+      "videoOwnerChannelId": "UC_iD0xppBwwsrM9DegC5cQQ"
+    }
+  }
+]

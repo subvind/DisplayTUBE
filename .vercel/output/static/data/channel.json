@@ -1,28 +1,28 @@
 {
   "kind": "youtube#searchResult",
-  "etag": "yEty0pRQS51OKcr7PNbQakLhto4",
+  "etag": "DUMATtd9rweL5a67haAdqMkKxYE",
   "id": {
     "kind": "youtube#channel",
-    "channelId": "UC9VI8tMugRuayae1wIm9Zjg"
+    "channelId": "UCwcibF78LrLQBpfvlApvgKg"
   },
   "snippet": {
-    "publishedAt": "2023-03-11T22:46:28Z",
-    "channelId": "UC9VI8tMugRuayae1wIm9Zjg",
-    "title": "RRABBIT",
-    "description": "RRABBIT was a DJ/Performer/Activist/Artist at underground raves in 1998-early 2000's. Known for playing ...",
+    "publishedAt": "2011-10-10T22:41:40Z",
+    "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+    "title": "subvind",
+    "description": "c_u_l8er_true ucimecu inomauto.",
     "thumbnails": {
       "default": {
-        "url": "https://yt3.ggpht.com/nK457qA_K4WmDXsBp41FMw64QbJCKCPZyxqge1rYT_6EywsBtrULdvzO5tdygz81lTJVoz1e=s88-c-k-c0xffffffff-no-rj-mo"
+        "url": "https://yt3.ggpht.com/FoIB9JCGqNEN1yPSudDsmRglllkqBqfr5XvGS04cX9PWUxK-Hwof_o18qSxXRsF6vJYzXmjRDA=s88-c-k-c0xffffffff-no-rj-mo"
       },
       "medium": {
-        "url": "https://yt3.ggpht.com/nK457qA_K4WmDXsBp41FMw64QbJCKCPZyxqge1rYT_6EywsBtrULdvzO5tdygz81lTJVoz1e=s240-c-k-c0xffffffff-no-rj-mo"
+        "url": "https://yt3.ggpht.com/FoIB9JCGqNEN1yPSudDsmRglllkqBqfr5XvGS04cX9PWUxK-Hwof_o18qSxXRsF6vJYzXmjRDA=s240-c-k-c0xffffffff-no-rj-mo"
       },
       "high": {
-        "url": "https://yt3.ggpht.com/nK457qA_K4WmDXsBp41FMw64QbJCKCPZyxqge1rYT_6EywsBtrULdvzO5tdygz81lTJVoz1e=s800-c-k-c0xffffffff-no-rj-mo"
+        "url": "https://yt3.ggpht.com/FoIB9JCGqNEN1yPSudDsmRglllkqBqfr5XvGS04cX9PWUxK-Hwof_o18qSxXRsF6vJYzXmjRDA=s800-c-k-c0xffffffff-no-rj-mo"
       }
     },
-    "channelTitle": "RRABBIT",
-    "liveBroadcastContent": "none",
-    "publishTime": "2023-03-11T22:46:28Z"
+    "channelTitle": "subvind",
+    "liveBroadcastContent": "upcoming",
+    "publishTime": "2011-10-10T22:41:40Z"
   }
 }
