@@ -104,6 +104,7 @@
         <br />
         <br />`}>
         <img alt={video.snippet.title} src={video.image} />
+        <div class="title">{video.snippet.title}</div>
       </a>
     {/each}
   </div>
@@ -145,12 +146,24 @@
     flex-wrap: wrap;
   }
   .thumbnails-gallery a {
-    width: calc(94% / 3);
+    width: calc(91% / 3);
     margin: 0.5em;
     overflow: hidden;
+    background: #000;
+    border: 5px solid #000;
+    text-decoration: none;
   }
   .thumbnails-gallery img {
     width: 100%;
+  }
+
+  .thumbnails-gallery .title {
+    color: #fff;
+    font-size: 1.2em;
+  }
+
+  .thumbnails-gallery .description {
+    color: #fff;
   }
 
 </style>

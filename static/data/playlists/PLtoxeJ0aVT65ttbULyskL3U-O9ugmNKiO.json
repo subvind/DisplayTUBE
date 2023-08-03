@@ -186,52 +186,5 @@
       "videoOwnerChannelTitle": "Hashem Al-Ghaili",
       "videoOwnerChannelId": "UCfAInEvJMxEq_pCb9vehdCw"
     }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "E6tFPevfAtpExt6vQaxbZI-Qlis",
-    "id": "UEx0b3hlSjBhVlQ2NXR0YlVMeXNrTDNVLU85dWdtTktpTy4wOTA3OTZBNzVEMTUzOTMy",
-    "snippet": {
-      "publishedAt": "2022-12-14T20:04:51Z",
-      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
-      "title": "Nikola Tesla: \"GOD LIVES HERE\" (The full explanation)",
-      "description": "Nikola Tesla: \"God Lives Here\"\nThank you very much to this wonderful man, Michael Tellinger, who has been a revolutionary for years. Subscribe to his channel: https://www.youtube.com/channel/UCLF2DONV6JCJUs6eK6POaxg\nVisit his website: https://michaeltellinger.com/\n\n___________________________________________________________________________\nFootage: Videoblocks and Artgrid\nMusic: Epidemic Sound and Audiojungle\nReferences used under Fair Use Law\n__________________________________________________________________________\n✅ SELF-HYPNOSIS AUDIO PROGRAMS - https://bit.ly/2z7zyfG​​ (Reprogram Your Subconscious) \n__________________________________________________________________________\n📩 For any concerns or business inquiries, please contact us at: videoadvice@yahoo.ro\n\nAFFILIATE DISCLOSURE: there may be a few links in this description that, at no cost to you, will earn us a commission if you click them and make a purchase.\nDon’t worry; we only recommend products we know and trust.",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/Br5Qik1-spA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/Br5Qik1-spA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/Br5Qik1-spA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/Br5Qik1-spA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/Br5Qik1-spA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "subvind",
-      "playlistId": "PLtoxeJ0aVT65ttbULyskL3U-O9ugmNKiO",
-      "position": 4,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "Br5Qik1-spA"
-      },
-      "videoOwnerChannelTitle": "Video Advice",
-      "videoOwnerChannelId": "UCAwylBbx8RiRD3VsaYdwNTw"
-    }
   }
 ]

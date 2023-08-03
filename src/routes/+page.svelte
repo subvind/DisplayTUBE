@@ -147,6 +147,8 @@
         <br />
         <br />`}>
         <img alt={playlist.snippet.title} src={playlist.image} />
+        <div class="title">{playlist.snippet.title}</div>
+        <div class="description">{playlist.snippet.description}</div>
       </a>
     {/each}
   </div>
@@ -174,12 +176,24 @@
     flex-wrap: wrap;
   }
   .thumbnails-gallery a {
-    width: calc(94% / 3);
+    width: calc(91% / 3);
     margin: 0.5em;
     overflow: hidden;
+    background: #000;
+    border: 5px solid #000;
+    text-decoration: none;
   }
   .thumbnails-gallery img {
     width: 100%;
+  }
+
+  .thumbnails-gallery .title {
+    color: #fff;
+    font-size: 1.5em;
+  }
+
+  .thumbnails-gallery .description {
+    color: #fff;
   }
 
   :global(.lg-sub-html) {
