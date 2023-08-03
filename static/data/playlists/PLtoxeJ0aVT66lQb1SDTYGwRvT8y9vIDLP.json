@@ -139,42 +139,5 @@
       "videoOwnerChannelTitle": "Video Advice",
       "videoOwnerChannelId": "UCAwylBbx8RiRD3VsaYdwNTw"
     }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "jImamBA_ZtF3i3mcRF3pIn-zdfI",
-    "id": "UEx0b3hlSjBhVlQ2NmxRYjFTRFRZR3dSdlQ4eTl2SURMUC41MjE1MkI0OTQ2QzJGNzNG",
-    "snippet": {
-      "publishedAt": "2022-12-15T16:04:43Z",
-      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
-      "title": "Tapeheads - Roscoe's Chicken 'n' Waffles commercial (HQ version)",
-      "description": "Commercial parody scene from the movie TAPEHEADS starring John Cusack and Tim Robbins, executive produced by Michael Nesmith of The Monkees. Roscoe played by King Cotton. Film Tagline: \"Let's get into trouble, baby!\"\r\n\r\nSAMPLE LYRICS:\r\n\r\nCome on Fly Girls\r\nAnd wiggle dem der bottoms\r\n\r\nWaffles just pancakes\r\nwith little squares on 'em",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/dnBZMngx97o/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/dnBZMngx97o/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/dnBZMngx97o/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        }
-      },
-      "channelTitle": "subvind",
-      "playlistId": "PLtoxeJ0aVT66lQb1SDTYGwRvT8y9vIDLP",
-      "position": 3,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "dnBZMngx97o"
-      },
-      "videoOwnerChannelTitle": "Darryl347",
-      "videoOwnerChannelId": "UCLAKamQIr0KTWGn6pNcL22w"
-    }
   }
 ]

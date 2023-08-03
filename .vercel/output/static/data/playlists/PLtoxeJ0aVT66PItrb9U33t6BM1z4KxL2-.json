@@ -92,47 +92,5 @@
       "videoOwnerChannelTitle": "BBC Reel",
       "videoOwnerChannelId": "UCfYW5GXBXueSO5p9bxD45qg"
     }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "Tvl0-WMn7q4bEhN0pFAbR7O9ML0",
-    "id": "UEx0b3hlSjBhVlQ2NlBJdHJiOVUzM3Q2Qk0xejRLeEwyLS4wMTcyMDhGQUE4NTIzM0Y5",
-    "snippet": {
-      "publishedAt": "2023-07-17T15:06:50Z",
-      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
-      "title": "Flow Based Programming with Elixir and ALF | Anton Mishchuk | Code BEAM Europe 2022",
-      "description": "This video was recorded at Code BEAM  Europe 2022 - https://codesync.global/conferences/code-beam-sto-2022/\n\nFlow Based Programming with Elixir and ALF | Anton Mishchuk - Software Engineer\n\nABSTRACT\nFlow-based Programming (FBP) is a 50-years-old idea of presenting an application as a network of independent processes (components) exchanging data via message passing. The Actor concurrency model in Erlang, GenServer abstraction, and powerful GenStage library make it extremely easy to implement FBP in Elixir. In the talk, I’m going to present the advantages of the approach for modelling the application layer of a program and provide examples using the ALF library I’ve created.\n\nOBJECTIVES\nDiscuss a new-old paradigm for creating software applications -a flow-based programming approach - and present a framework for supporting the approach.\n\nAUDIENCE\nEngineers who are interested in different approaches for writing software applications.\n\n• Timecodes\n  00:00 - 09:15 - Flow-Based compony\n  09:16 - 12:50 - FBP Advantages\n  12:51 - 16:12 - FBP with Elixir\n  16:13 - 19:50 - Meet ALF\n  19:51 - 23:28 - ALF Components\n  23:29 - 26:21 - Example: Online TicTacToe game\n  26:22 - 34:16 - ALF Monitor\n  34:17 - 41:31 - QnA\n\n• Follow us on social: \n  Twitter: https://twitter.com/CodeBEAMio\n  LinkedIn: https://www.linkedin.com/company/27159258\n\n• Looking for a unique learning experience?\n  Attend the next Code Sync conference near you! \n  See what's coming up at: https://codesync.global \n\n• SUBSCRIBE TO OUR CHANNEL\n  https://www.youtube.com/channel/UC47eUBNO8KBH_V8AfowOWOw\n  See what's coming up at: https://codesync.global",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/2XrYd1W5GLo/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/2XrYd1W5GLo/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/2XrYd1W5GLo/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/2XrYd1W5GLo/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        }
-      },
-      "channelTitle": "subvind",
-      "playlistId": "PLtoxeJ0aVT66PItrb9U33t6BM1z4KxL2-",
-      "position": 2,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "2XrYd1W5GLo"
-      },
-      "videoOwnerChannelTitle": "Code Sync",
-      "videoOwnerChannelId": "UC47eUBNO8KBH_V8AfowOWOw"
-    }
   }
 ]

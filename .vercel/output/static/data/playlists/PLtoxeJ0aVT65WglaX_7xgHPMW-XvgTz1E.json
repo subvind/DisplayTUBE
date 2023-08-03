@@ -270,5 +270,52 @@
       "videoOwnerChannelTitle": "SAP Products & Services",
       "videoOwnerChannelId": "UC8cXSTGDhiZK5229zi-KTXA"
     }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "5Rewow42NtMHoWib2l7bd8TZPGI",
+    "id": "UEx0b3hlSjBhVlQ2NVdnbGFYXzd4Z0hQTVctWHZnVHoxRS41MzJCQjBCNDIyRkJDN0VD",
+    "snippet": {
+      "publishedAt": "2023-07-31T23:40:25Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "How GitHub Actions 10x my productivity",
+      "description": "Learn how to use GitHub actions continuous integration and delivery in a software development project. In this quick tutorial, we look at 7 powerful ways to automate code with CI/CD. \n\n#programming #automation \n\n- My GitHub Actions in SvelteFire https://github.com/codediodeio/sveltefire\n- GitHub Actions Docs https://github.com/features/actions\n- act cli https://github.com/nektos/act",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/yfBtjLxn_6k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/yfBtjLxn_6k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/yfBtjLxn_6k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/yfBtjLxn_6k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/yfBtjLxn_6k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT65WglaX_7xgHPMW-XvgTz1E",
+      "position": 6,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "yfBtjLxn_6k"
+      },
+      "videoOwnerChannelTitle": "Beyond Fireship",
+      "videoOwnerChannelId": "UC2Xd-TjJByJyK2w1zNwY0zQ"
+    }
   }
 ]
