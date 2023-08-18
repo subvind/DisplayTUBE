@@ -20,7 +20,8 @@
   <hr>
   <br />
   <span style="float: right;">{date.toLocaleString('en-IN', options)}</span>
-  subvind.com © {new Date().getFullYear()}.
+  subvind.com © {new Date().getFullYear()}.<br />
+  powered by <a href="https://subvind.com">subvind</a>
   <br />
   <br />
 </div>
