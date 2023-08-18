@@ -32,8 +32,8 @@ const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   );
   $$result.css.add(css);
   return `<div class="container svelte-nkt1wx"><hr class="svelte-nkt1wx"> <br> <span style="float: right;">${escape(date.toLocaleString("en-IN", options))}</span>
-  subvind.com © ${escape((/* @__PURE__ */ new Date()).getFullYear())}.
-  <br> <br></div> <br> <br> <br> <br> <br> <br> <br> <br>`;
+  flowtube.subvind.com © ${escape((/* @__PURE__ */ new Date()).getFullYear())}.<br>
+  powered by <a href="https://subvind.com" data-svelte-h="svelte-1dvl2ng">subvind</a> <br> <br></div> <br> <br> <br> <br> <br> <br> <br> <br>`;
 });
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Header, "Header").$$render($$result, {}, {}, {})} ${slots.default ? slots.default({}) : ``} ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}`;
