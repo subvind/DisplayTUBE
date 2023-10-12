@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#playlistItem",
-    "etag": "xRTRHjElvsrmV9QMl0fkfbmGuzY",
+    "etag": "X2rY8CWcMWyFmDcFI3t2LJEC6Nk",
     "id": "UEx0b3hlSjBhVlQ2NU82aDRKX3FEc1diT0lZNDNvZnZnMS41NkI0NEY2RDEwNTU3Q0M2",
     "snippet": {
       "publishedAt": "2023-01-13T23:45:59Z",
@@ -138,53 +138,6 @@
       },
       "videoOwnerChannelTitle": "VICE News",
       "videoOwnerChannelId": "UCZaT_X_mc0BI-djXOlfhqWQ"
-    }
-  },
-  {
-    "kind": "youtube#playlistItem",
-    "etag": "HqKpI6N52gxb484EwtXmiq2bVks",
-    "id": "UEx0b3hlSjBhVlQ2NU82aDRKX3FEc1diT0lZNDNvZnZnMS41MjE1MkI0OTQ2QzJGNzNG",
-    "snippet": {
-      "publishedAt": "2023-03-02T20:57:30Z",
-      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
-      "title": "SEBASTIAN PAUL - TROJAN HORSE (Official Full Stream)",
-      "description": "Stream/Download: http://maddecent.fm/trojanhorse \nFollow Mad Decent Weekly on Spotify: http://maddecent.fm/mdweekly \nSubscribe to Mad Decent on YouTube: http://www.maddecent.fm/youtube \n\nFOLLOW SEBASTIAN PAUL\nFacebook: https://www.facebook.com/officialsebastianpaul \nTwitter: https://twitter.com/sebastianpaul__ \nSoundCloud: https://soundcloud.com/sebastian_paul \nInstagram: https://www.instagram.com/sebastianpaul__\nBandcamp: https://sebastianpaul7.bandcamp.com/releases \nYouTube: http://maddecent.fm/sebastianpaulYT \n\nFOLLOW MAD DECENT \nFacebook: https://www.facebook.com/maddecent\nTwitter: https://twitter.com/maddecent\nSoundCloud: https://soundcloud.com/maddecent\nInstagram: https://www.instagram.com/maddecent/\nWeb: http://maddecent.com\n\nSubscribe to Mad Decent on YouTube: https://maddecent.lnk.to/YouTube #maddecent",
-      "thumbnails": {
-        "default": {
-          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/default.jpg",
-          "width": 120,
-          "height": 90
-        },
-        "medium": {
-          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/mqdefault.jpg",
-          "width": 320,
-          "height": 180
-        },
-        "high": {
-          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/hqdefault.jpg",
-          "width": 480,
-          "height": 360
-        },
-        "standard": {
-          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/sddefault.jpg",
-          "width": 640,
-          "height": 480
-        },
-        "maxres": {
-          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/maxresdefault.jpg",
-          "width": 1280,
-          "height": 720
-        }
-      },
-      "channelTitle": "subvind",
-      "playlistId": "PLtoxeJ0aVT65O6h4J_qDsWbOIY43ofvg1",
-      "position": 3,
-      "resourceId": {
-        "kind": "youtube#video",
-        "videoId": "IeVrSGSuCVA"
-      },
-      "videoOwnerChannelTitle": "Mad Decent",
-      "videoOwnerChannelId": "UCywgIB7Wd2woy5se8ReOpmw"
     }
   }
 ]

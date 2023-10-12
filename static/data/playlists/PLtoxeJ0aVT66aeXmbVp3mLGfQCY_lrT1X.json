@@ -1,0 +1,96 @@
+[
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "t6gWzPYlZeZ8pSLh5q9TOFyinRU",
+    "id": "UEx0b3hlSjBhVlQ2NmFlWG1iVnAzbUxHZlFDWV9sclQxWC41NkI0NEY2RDEwNTU3Q0M2",
+    "snippet": {
+      "publishedAt": "2023-08-10T03:10:16Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "The Power of Being a Small eBay Seller",
+      "description": "My goal is to help people create Reseller Nirvana (Profit $1-$18,000 a month) https://www.dailyrefinement.com/\n\nThis broadcast is sponsored by The Reseller Nirvana Mentorship: https://www.patreon.com/theresellerspodcast.\n\n\n\nIf this content is useful to you, buy me a coffee! https://buymeacoffee.com/dailyrefinement\n\nCheck out the exact supplies I use to resell: https://bit.ly/resellersupplies\n\nIf you want a free store review on eBay or Poshmark: https://bit.ly/drfreereview\n\nIf you need help, join our Free Friday Zoom Listing Party: https://bit.ly/fridaylistingparty",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/_yX91QRZYjE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/_yX91QRZYjE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/_yX91QRZYjE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/_yX91QRZYjE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/_yX91QRZYjE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT66aeXmbVp3mLGfQCY_lrT1X",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "_yX91QRZYjE"
+      },
+      "videoOwnerChannelTitle": "Daily Refinement",
+      "videoOwnerChannelId": "UCkq7AY19BnmIsjRK14ePjcg"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "TBlq_yTpzq2PRZJW19gKLBjSmzU",
+    "id": "UEx0b3hlSjBhVlQ2NmFlWG1iVnAzbUxHZlFDWV9sclQxWC4yODlGNEE0NkRGMEEzMEQy",
+    "snippet": {
+      "publishedAt": "2023-08-10T03:24:10Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "How to Crush it as a Small eBay Reseller in 2023! ($50/hr, 20 hours, $1k Profit)",
+      "description": "My goal is to help people create Reseller Nirvana (Profit $1-$18,000 a month) https://www.dailyrefinement.com/\n\nThis broadcast is sponsored by The Reseller Nirvana Mentorship: https://www.patreon.com/theresellerspodcast.\n\n\n\nIf this content is useful to you, buy me a coffee! https://buymeacoffee.com/dailyrefinement\n\nCheck out the exact supplies I use to resell: https://bit.ly/resellersupplies\n\nIf you want a free store review on eBay or Poshmark: https://bit.ly/drfreereview\n\nIf you need help, join our Free Friday Zoom Listing Party: https://bit.ly/fridaylistingparty",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/o69p4PsmbPc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/o69p4PsmbPc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/o69p4PsmbPc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/o69p4PsmbPc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/o69p4PsmbPc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT66aeXmbVp3mLGfQCY_lrT1X",
+      "position": 1,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "o69p4PsmbPc"
+      },
+      "videoOwnerChannelTitle": "Daily Refinement",
+      "videoOwnerChannelId": "UCkq7AY19BnmIsjRK14ePjcg"
+    }
+  }
+]

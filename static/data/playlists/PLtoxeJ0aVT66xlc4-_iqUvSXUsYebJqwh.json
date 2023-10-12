@@ -1,7 +1,7 @@
 [
   {
     "kind": "youtube#playlistItem",
-    "etag": "qNgILCyQxAa8HMMJlCHGxcD0nI4",
+    "etag": "_gywT-SKweYQ_BjI8hHWhKN6Gxs",
     "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC41NkI0NEY2RDEwNTU3Q0M2",
     "snippet": {
       "publishedAt": "2023-08-03T16:07:48Z",
@@ -38,7 +38,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "68Azl9UjGcYGY3T45bczlT_Sz2o",
+    "etag": "xn0xLojXXDz2o8eyXs_GriAso1E",
     "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC4yODlGNEE0NkRGMEEzMEQy",
     "snippet": {
       "publishedAt": "2023-08-03T16:13:07Z",
@@ -127,7 +127,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "Iss1WjQ6kK31HOb89vSVTtzMoVo",
+    "etag": "jydMMFXc64NyNaL-PLSBXZTESJk",
     "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC41MjE1MkI0OTQ2QzJGNzNG",
     "snippet": {
       "publishedAt": "2023-08-03T16:15:22Z",
@@ -258,7 +258,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "WNeBMZOsZPOqcTkzXhCcbL37SIA",
+    "etag": "2DzOkN_s-LDIyGagQsTolPaiME8",
     "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC41MzJCQjBCNDIyRkJDN0VD",
     "snippet": {
       "publishedAt": "2023-08-03T16:20:56Z",
@@ -305,7 +305,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "F1knMXKlMOXKAkgNlgb6JqdEwaU",
+    "etag": "m8YHG5OHBV_E3ogLLz9wJCCSzyk",
     "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC5DQUNERDQ2NkIzRUQxNTY1",
     "snippet": {
       "publishedAt": "2023-08-03T16:21:54Z",
@@ -352,7 +352,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "hYx50X7G9HomyGiEdkiXfIgyz3o",
+    "etag": "KX4FlzHV8853LgLBXKO3R3O5Nkg",
     "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC45NDk1REZENzhEMzU5MDQz",
     "snippet": {
       "publishedAt": "2023-08-03T16:22:36Z",
@@ -399,7 +399,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "locWhxbRS3NsUZREdirHiPX2WO8",
+    "etag": "zXT1afZlIIdTF1nmaMWUUxASri0",
     "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC5GNjNDRDREMDQxOThCMDQ2",
     "snippet": {
       "publishedAt": "2023-08-03T16:24:27Z",
@@ -446,13 +446,13 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "YEBx4H8TH9GIRJ57fZikYsTmaAo",
+    "etag": "UKgjZzNqZJk04OZSaazE8842WB4",
     "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC40NzZCMERDMjVEN0RFRThB",
     "snippet": {
       "publishedAt": "2023-08-03T16:26:25Z",
       "channelId": "UCwcibF78LrLQBpfvlApvgKg",
-      "title": "The Drums - Money (Official Video)",
-      "description": "The Drums - Money \n\nListen to \"Money\" by The Drums: \nSpotify: shorturl.at/npuJU\nApple Music: shorturl.at/lEFJ9\n\nSubscribe to our channel and turn on notifications to stay updated with all new uploads!\n\nFollow The Drums: \nOfficial Site: http://www.thedrums.com/\nSpotify: shorturl.at/oxIQU\nFacebook: https://www.facebook.com/pg/wearethedrums/\nTwitter: http://twitter.com/thedrumsforever\nInstagram: http://instagram.com/thedrumsofficial\nYouTube: https://www.youtube.com/user/theDrumsForever\nTikTok: https://www.tiktok.com/@thedrumsforever\n\nGet Tickets:  https://thedrums.com/shows\n\n#TheDrums #Money",
+      "title": "The Drums - Money",
+      "description": "Pre-Order the new album Encyclopedia!\nsmarturl.it/TheDrumsiTunes\nsmarturl.it/TheDrumsAMAZON\n\nMusic video by The Drums performing Money. (C) 2011 Frenchkiss Records",
       "thumbnails": {
         "default": {
           "url": "https://i.ytimg.com/vi/IqYgNiZdfh4/default.jpg",
@@ -482,8 +482,8 @@
         "kind": "youtube#video",
         "videoId": "IqYgNiZdfh4"
       },
-      "videoOwnerChannelTitle": "The Drums",
-      "videoOwnerChannelId": "UC_nOXOQxFMjACqgr_w5nx-A"
+      "videoOwnerChannelTitle": "TheDrumsVEVO",
+      "videoOwnerChannelId": "UCrp0s31p_rArZRodHzjB1TQ"
     }
   },
   {
@@ -619,7 +619,7 @@
   },
   {
     "kind": "youtube#playlistItem",
-    "etag": "6LfbnL4LFTAp7PtzKYtAqrOop-o",
+    "etag": "kqGxLem9b47KFl3NJnLL_OsH0P0",
     "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC41Mzk2QTAxMTkzNDk4MDhF",
     "snippet": {
       "publishedAt": "2023-08-03T16:34:58Z",
@@ -662,6 +662,241 @@
       },
       "videoOwnerChannelTitle": "Daft Punk - Topic",
       "videoOwnerChannelId": "UCRr1xG_2WIDs18a6cIiCxeA"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "_KHVOEoXVSdE4VttJZv37-iHtFk",
+    "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC5EQUE1NTFDRjcwMDg0NEMz",
+    "snippet": {
+      "publishedAt": "2023-08-03T17:24:48Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "SEBASTIAN PAUL - TROJAN HORSE (Official Full Stream)",
+      "description": "Stream/Download: http://maddecent.fm/trojanhorse \nFollow Mad Decent Weekly on Spotify: http://maddecent.fm/mdweekly \nSubscribe to Mad Decent on YouTube: http://www.maddecent.fm/youtube \n\nFOLLOW SEBASTIAN PAUL\nFacebook: https://www.facebook.com/officialsebastianpaul \nTwitter: https://twitter.com/sebastianpaul__ \nSoundCloud: https://soundcloud.com/sebastian_paul \nInstagram: https://www.instagram.com/sebastianpaul__\nBandcamp: https://sebastianpaul7.bandcamp.com/releases \nYouTube: http://maddecent.fm/sebastianpaulYT \n\nFOLLOW MAD DECENT \nFacebook: https://www.facebook.com/maddecent\nTwitter: https://twitter.com/maddecent\nSoundCloud: https://soundcloud.com/maddecent\nInstagram: https://www.instagram.com/maddecent/\nWeb: http://maddecent.com\n\nSubscribe to Mad Decent on YouTube: https://maddecent.lnk.to/YouTube #maddecent",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/IeVrSGSuCVA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT66xlc4-_iqUvSXUsYebJqwh",
+      "position": 15,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "IeVrSGSuCVA"
+      },
+      "videoOwnerChannelTitle": "Mad Decent",
+      "videoOwnerChannelId": "UCywgIB7Wd2woy5se8ReOpmw"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "loLFW9JsBBxoN_499fmTkONR9mY",
+    "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC41QTY1Q0UxMTVCODczNThE",
+    "snippet": {
+      "publishedAt": "2023-08-22T22:06:41Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Missy Elliott - The Rain (Supa Dupa Fly) [Official Music Video]",
+      "description": "Missy Elliott - The Rain (Supa Dupa Fly) [Official Music Video]\n\nICONOLOGY out now: https://missyelliott.lnk.to/ICONOLOGY\n\n#THROWITBACK\n\nCheck out the Missy Elliott Official Music Videos Playlist! \nhttps://missyelliott.lnk.to/OfficialVideos\n\nSubscribe to Missy’s channel for all the best and latest official music videos, official audio, albums, and more! \nhttps://missyelliott.lnk.to/YouTube\n\nListen to Missy!\nYoutube: https://missyelliott.lnk.to/YouTube\nSpotify: https://missyelliott.lnk.to/DSPs/spotify\nApple: https://missyelliott.lnk.to/DSPs/applemusic\nSoundCloud: https://missyelliott.lnk.to/DSPs/soundcloud\n\nConnect With Missy!\nWebsite: http://www.missy-elliott.com/\nInstagram: https://missyelliott.lnk.to/Instagram \nTwitter: https://missyelliott.lnk.to/Twitter \nFacebook: https://missyelliott.lnk.to/Facebook \n\nThe official YouTube channel of Missy Elliott.\n\nA groundbreaking singer, rapper, producer and songwriter, Missy Elliott is a hip-hop and cultural icon with hits like \"Work It\", \"Lose Control (feat. Ciara & Fatman Scoop)\", \"Get Ur Freak On\", \"WTF (Where They From) (feat. Pharrell Williams)\" and \"I'm Better (feat. Lamb)\", among countless others. Her legendary body of work includes visionary albums such as Supa Dupa Fly, Miss E… So Addictive, Under Construction and The Cookbook, and revolutionary music videos like \"The Rain (Supa Dupa Fly)\", \"She's A Bitch\", and \"Gossip Folks\", that redefined the intersection between music, fashion, choreography and visual arts. Ever fresh and innovative, Missy continues to push the boundaries of music and video, cementing her well-deserved place in rap and R&B supremacy today and for years to come.\n\n#MissyElliott #Atlantic #AtlanticRecords #TheRain #SupaDupaFly",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hHcyJPTTn9w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hHcyJPTTn9w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hHcyJPTTn9w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hHcyJPTTn9w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/hHcyJPTTn9w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT66xlc4-_iqUvSXUsYebJqwh",
+      "position": 16,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "hHcyJPTTn9w"
+      },
+      "videoOwnerChannelTitle": "Missy Elliott",
+      "videoOwnerChannelId": "UC_u0CLjE2CglTTAS_WX-zCg"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "VQ04-pomqGWzuB1hnCzVqqtPlBM",
+    "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC4yMUQyQTQzMjRDNzMyQTMy",
+    "snippet": {
+      "publishedAt": "2023-09-01T21:56:14Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Paula Abdul - Straight Up (Official Music Video)",
+      "description": "REMASTERED IN HD!!\nOfficial Music Video for Straight Up performed by Paula Abdul. \n\nFollow Paula Abdul:\nInstagram: https://www.instagram.com/paulaabdul/\nFacebook: https://www.facebook.com/PaulaAbdul\nTwitter: https://twitter.com/PaulaAbdul\nWebsite:  https://paulaabdulstore.com/\n\n#PaulaAbdul #StraightUp #Remastered",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/El1kgCqD7Xk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/El1kgCqD7Xk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/El1kgCqD7Xk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/El1kgCqD7Xk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/El1kgCqD7Xk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT66xlc4-_iqUvSXUsYebJqwh",
+      "position": 17,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "El1kgCqD7Xk"
+      },
+      "videoOwnerChannelTitle": "PaulaAbdulVEVO",
+      "videoOwnerChannelId": "UCozNbuFWwnJY2TagjDKTFIQ"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "deYUWHXoPLldbkDpt8EWx1lxWsk",
+    "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC45RTgxNDRBMzUwRjQ0MDhC",
+    "snippet": {
+      "publishedAt": "2023-09-01T21:57:33Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "The B-52's - Love Shack (Official Music Video)",
+      "description": "You're watching the official music video for The B-52's - \"Love Shack\" from the album 'Cosmic Thing'. \"Love Shack\" reached No. 3 on the Billboard Hot 100 in 1989.\n\nSubscribe to the Rhino Channel! https://Rhino.lnk.to/YouTubeSubID \n\nCheck Out Our Favorite Playlists:\nClassic Rock https://Rhino.lnk.to/YTClassicRockID\n80s Hits https://Rhino.lnk.to/YT80sHitsID\n80s Hard Rock https://Rhino.lnk.to/YT80sHardRockID\n80s Alternative https://Rhino.lnk.to/YT80sAlternativeID\n90s Hits https://Rhino.lnk.to/YT90sHitsID\n\nStay connected with RHINO on...\nFacebook https://www.facebook.com/RHINO/\nInstagram https://www.instagram.com/rhino_records\nTwitter https://twitter.com/Rhino_Records\nhttps://www.rhino.com/\n\nLyrics:\nIf you see a faded sign at the side of the road that says\n\"15 miles to the\nLove Shack\"\nLove Shack, yeah, yeah\nI'm headin' down the Atlanta highway\n\nLookin' for the love getaway\nHeaded for the love getaway\nI got me a car that's as big as a whale\nAnd we're headin' on down to the Love Shack\nI got me a Chrysler that seats about 20\nSo hurry up and bring your jukebox money\n\nThe love shack is a little old place where we can get together\nLove Shack, baby (a-Love Shack, baby)\nLove Shack, baby, Love Shack\nLove Shack, baby, Love Shack\n(Love, baby, that's where it's at)\n\nSign says (woo!), \"Stay away, fools\n'Cause love rules at the Love Shack\"\nWell, it's set way back in the middle of a field\nJust a funky old shack and I gotta get back\nGlitter on the mattress\nGlitter on the highway\nGlitter on the front porch\nGlitter on the highway\n\n\nThe Love Shack is a little old place where we can get together\nLove Shack, baby (Love Shack, baby)\nLove Shack, that's where it's at\nLove Shack, that's where it's at\n\nHuggin' and a-kissin'\nDancin' and a-lovin'\nWearin' next to nothin'\n'Cause it's hot as an oven\nThe whole shack shimmies\nWhen everybody's movin' around\nAnd around and around and around\nEverybody's movin', everybody's groovin', baby\nFolks linin' up outside just to get down\nEverybody's movin', everybody's groovin', baby\nFunky little shack\nFunky little shack\n\nHop in my Chrysler, it's as big as a whale and it's about to set sail\nI got me a car, it seats about 20\nSo come on and bring your jukebox money\n\nThe Love Shack is a little old place where we can get together\nLove Shack, baby (a-Love Shack, baby)\nLove Shack, baby, Love Shack\nLove Shack, baby, Love Shack\n(Love, baby, that's where it's at)\n\n\nBang, bang, bang on the door, baby\nKnock a little louder, sugar\nBang, bang, bang on the door, baby\nI can't hear you\nBang, bang on the door, baby\nBang, bang on the door\nBang, bang on the door, baby\nBang, bang\n\nYour what?\nTin roof, rusted\n\nLove Shack, baby, Love Shack\nLove Shack, baby, Love Shack (Love, baby, that's where it's at, yeah)\nLove Shack, baby, Love Shack (Love, baby, that's where it's at)\nLove Shack, baby, Love Shack\nHuggin' and a-kissin'\nDancin' and a-lovin'\nAt the Love Shack\n\n**************************************************************************\n\nRHINO is the official YouTube channel of the greatest music catalog in the world. Founded in 1978, Rhino is the world's leading pop culture label specializing in classic rock, soul, and 80's and 90's alternative. The vast Rhino catalog of more than 5,000 albums, videos, and hit songs features material by Warner Music Group artists such as Van Halen, Madonna, Duran Duran, Aretha Franklin, Ray Charles, The Doors, Chicago, Black Sabbath, John Coltrane, Yes, Alice Cooper, Linda Ronstadt, The Ramones, The Monkees, Carly Simon, and Curtis Mayfield, among many others. Check back for classic music videos, live performances, hand-curated playlists, the Rhino Podcast, and more!",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/9SOryJvTAGs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/9SOryJvTAGs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/9SOryJvTAGs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/9SOryJvTAGs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/9SOryJvTAGs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT66xlc4-_iqUvSXUsYebJqwh",
+      "position": 18,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "9SOryJvTAGs"
+      },
+      "videoOwnerChannelTitle": "RHINO",
+      "videoOwnerChannelId": "UCWEtnEiVwUy7mwFeshyAWLA"
+    }
+  },
+  {
+    "kind": "youtube#playlistItem",
+    "etag": "MeK7TQMI60I1SRuaa0Bb6Ifz8r0",
+    "id": "UEx0b3hlSjBhVlQ2NnhsYzQtX2lxVXZTWFVzWWViSnF3aC5ENDU4Q0M4RDExNzM1Mjcy",
+    "snippet": {
+      "publishedAt": "2023-09-30T18:27:25Z",
+      "channelId": "UCwcibF78LrLQBpfvlApvgKg",
+      "title": "Yakety Yak (2007 Remaster)",
+      "description": "Provided to YouTube by Rhino/Warner Records\n\nYakety Yak (2007 Remaster) · The Coasters\n\nThere's A Riot Goin' On: The Coasters On Atco\n\n℗ 1958 Atco Records. A Division of Atlantic Recording Corporation for the United States and WEA Internationa for the world outside of the United States.\n\nGuitar: Alan Hanlon\nGuitar: George Barnes\nDrums: Joe Marshall\nTenor  Saxophone: King Curtis\nProducer: Lieber\nPiano: Mike Stoller\nProducer: Stoller\nVocals: The Coasters\nBass  Guitar: Wendell Marshall\nWriter: Bruce A. Evans\nComposer: Jerry Leiber\nComposer: Mike Stoller\nWriter: Raynold Gideon\nWriter: Stephen King\n\nAuto-generated by YouTube.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/epCN0f7FTIY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/epCN0f7FTIY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/epCN0f7FTIY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/epCN0f7FTIY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/epCN0f7FTIY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "subvind",
+      "playlistId": "PLtoxeJ0aVT66xlc4-_iqUvSXUsYebJqwh",
+      "position": 19,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "epCN0f7FTIY"
+      },
+      "videoOwnerChannelTitle": "The Coasters - Topic",
+      "videoOwnerChannelId": "UCpgE45UhoSDJ6na4UP4KEQw"
     }
   }
 ]
