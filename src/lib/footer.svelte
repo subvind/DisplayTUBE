@@ -36,9 +36,8 @@
 
 <style>
   .container {
-    width: 900px;
     margin: 0 auto;
-    background: #111;
+    background: #222;
     padding: 1em;
     color: #ccc;
     position: relative;

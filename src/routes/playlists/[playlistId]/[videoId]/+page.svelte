@@ -122,12 +122,23 @@
 
 </script>
 
-<div class="container" style="border-bottom: 0;">
+<div class="container" style="border-bottom: 0; overflow: hidden;">
+  <hr>
   <a href="#" target="_self"><button class="auto-play">AUTO PLAY ({secondsRemaining})</button></a>
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
   <a href={`/playlists/${data.playlistId}`} target="_self"><button class="back">PLAYLIST</button></a> 
-  <br />
-  <br />
+  <hr>
+  {#if playlist}
+    <h3 class="title">{playlist.snippet.title}</h3>
+    <p class="published">Published: {new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
+    <p class="description">{playlist.snippet.description}</p>
+  {/if}
+  <hr>
+  {#if video}
+    <h3 class="title">{video.snippet.title}</h3>
+    <p class="published">Published: {new Date(video.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
+  {/if}
+  <hr>
 </div>
 <iframe 
   width="100%" 
@@ -137,31 +148,22 @@
   frameborder="0" 
   allow="accelerometer; autoplay; encrypted-media; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
   allowfullscreen
-  style="border: 3px solid #333; border-left: 0; border-right: 0; margin-bottom: -5px;"
+  style="border: 3px solid #333; border-left: 0; border-right: 0; margin-bottom: -6px;"
 >
 </iframe>
 <div class="container" style="border-top: 0;">
   <br />
   <br />
 
-  {#if playlist}
-    <h3 class="title">{playlist.snippet.title}</h3>
-    <p class="published">Published: {new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
-    <p class="description">{playlist.snippet.description}</p>
-    <br />
-  {/if}
   {#if video}
-    <h3 class="title">{video.snippet.title}</h3>
-    <p class="published">Published: {new Date(video.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
     <p class="description">{video.snippet.description}</p>
   {/if}
 </div>
 
 <style>
   .container {
-    width: 900px;
     margin: 0 auto;
-    background: #111;
+    background: #222;
     padding: 1em;
     padding-top: 0;
     color: #ccc;
@@ -191,5 +193,9 @@
   .description {
     margin: 0;
     color: #777;
+  }
+
+  hr {
+    border: 1px solid #333;
   }
 </style>

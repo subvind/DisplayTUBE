@@ -28,9 +28,10 @@
   })
 </script>
 
-<div class="container">
+<div class="container" style="overflow: hidden;">
+  <hr>
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
-  <br />
+  <hr>
   <br />
   {#if playlists}
     <table border="1">
@@ -42,7 +43,7 @@
       {#each playlists as playlist}
         <tr class="row">
           <td>
-            <a href={`/live-now/${playlist.id}`} target="_self"><button class="watch">{playlist.snippet.title}</button></a>
+            <a href={`/channel-guide/${playlist.id}`} target="_self"><button class="watch">{playlist.snippet.title}</button></a>
           </td>
           <td>{playlist.snippet.description}</td>
           <td>{new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</td>
@@ -56,9 +57,8 @@
 
 <style>
   .container {
-    width: 900px;
     margin: 0 auto;
-    background: #111;
+    background: #222;
     padding: 1em;
     padding-top: 0;
     color: #ccc;
@@ -87,5 +87,9 @@
   th,
   td {
     border: 1px solid #000;
+  }
+
+  hr {
+    border: 1px solid #333;
   }
 </style>

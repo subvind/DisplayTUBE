@@ -63,34 +63,34 @@
   })
 </script>
 
-<div class="container">
+<div class="container" style="overflow: hidden;">
+  <hr>
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
-  <a href="/live-now" target="_self"><button class="back">LIVE NOW</button></a>
-  <br />
-  <br />
+  <a href="/channel-guide" target="_self"><button class="back">CHANNEL GUIDE</button></a>
+  <hr>
   {#if playlist}
     <h3 class="title">{playlist.snippet.title}</h3>
     <p class="published">Published: {new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
     <p class="description">{playlist.snippet.description}</p>
-    <br />
   {/if}
-  <iframe 
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/TLwhqmf4Td4?autoplay=1"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen
-  >
-  </iframe>
+  <hr>
 </div>
+<iframe 
+  width="100%"
+  height="750"
+  src="https://www.youtube.com/embed/TLwhqmf4Td4?autoplay=1"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen
+  style="border: 3px solid #333; border-left: 0; border-right: 0; margin-bottom: -6px;"
+>
+</iframe>
 
 <style>
   .container {
-    width: 900px;
     margin: 0 auto;
-    background: #111;
+    background: #222;
     padding: 1em;
     padding-top: 0;
     color: #ccc;
@@ -115,5 +115,9 @@
   .description {
     margin: 0;
     color: #777;
+  }
+
+  hr {
+    border: 1px solid #333;
   }
 </style>

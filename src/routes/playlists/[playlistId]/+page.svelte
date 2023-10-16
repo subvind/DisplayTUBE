@@ -84,37 +84,43 @@
   });
 </script>
 
-<div class="container">
+<div class="container" style="overflow: hidden;">
+  <hr>
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
   <br />
-  <br />
+  <hr>
   {#if playlist}
     <h3 class="title">{playlist.snippet.title}</h3>
     <p class="published">Published: {new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</p>
     <p class="description">{playlist.snippet.description}</p>
-    <br />
+    <hr>
   {/if}
-  <div id="thumbnails-gallery" class="thumbnails-gallery">
-    {#each videos as video}
-      <a href={video.image} data-lg-size="1024-800" data-sub-html={`<p style="font-size: 1em;">${video.snippet.title}</p>
-        <br />
-        <a href="/playlists/${video.snippet.playlistId}/${video.snippet.resourceId.videoId}" target="_self">
-          <button style="padding: 0.5em; cursor: pointer; font-size: 1em;">watch video</button>
-        </a>
-        <br />
-        <br />`}>
-        <img alt={video.snippet.title} src={video.image} />
-        <div class="title">{video.snippet.title}</div>
-      </a>
-    {/each}
-  </div>
+  <br />
+  {#each videos as video}
+    <div class="card">
+      <div class="row">
+        <div class="col s12 m5">
+          <a href={`/playlists/${video.snippet.playlistId}/${video.snippet.resourceId.videoId}`}>
+            <img src={`${video.image}`} style="width: 100%;">
+          </a>
+        </div>
+        <div class="col s12 m7">
+          <div class="card-content">
+            <p>{video.snippet.description}</p>
+          </div>
+          <div class="card-action">
+            <a href={`/playlists/${video.snippet.playlistId}/${video.snippet.resourceId.videoId}`} style="text-transform: none;">{video.snippet.title}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  {/each}
 </div>
 
 <style>
   .container {
-    width: 900px;
     margin: 0 auto;
-    background: #111;
+    background: #222;
     padding: 1em;
     padding-top: 0;
     color: #ccc;
@@ -141,29 +147,12 @@
     color: #777;
   }
 
-  .thumbnails-gallery {
-    display: flex;
-    flex-wrap: wrap;
+  hr {
+    border: 1px solid #333;
   }
-  .thumbnails-gallery a {
-    width: calc(91% / 3);
-    margin: 0.5em;
-    overflow: hidden;
+
+  .card {
     background: #000;
-    border: 5px solid #000;
-    text-decoration: none;
-  }
-  .thumbnails-gallery img {
-    width: 100%;
-  }
-
-  .thumbnails-gallery .title {
-    color: #fff;
-    font-size: 1.2em;
-  }
-
-  .thumbnails-gallery .description {
-    color: #fff;
   }
 
 </style>

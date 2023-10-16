@@ -121,9 +121,9 @@
           }
         })
 
-        setTimeout(() => {
-          loadGallery()
-        }, 0)
+        // setTimeout(() => {
+        //   loadGallery()
+        // }, 0)
       }).catch(error => {
         console.log(error);
         return [];
@@ -132,33 +132,44 @@
   });
 </script>
 
+<iframe 
+  width="100%"
+  height="750"
+  src="https://www.youtube.com/embed/TLwhqmf4Td4?autoplay=0"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen
+  style="border: 3px solid #333; border-left: 0; border-right: 0; margin-bottom: -6px;"
+>
+</iframe>
 <div class="container">
-  <div id="inline-gallery-container" class="inline-gallery-container"></div>
   <br />
-  <br />
-  <h3>Created Playlists</h3>
-  <div id="thumbnails-gallery" class="thumbnails-gallery">
+  <h3 style="margin: 0;">Playlists</h3>
+  <div class="row">
     {#each playlists as playlist}
-      <a href={playlist.image} data-lg-size="1024-800" data-sub-html={`<p style="font-size: 1em;">${playlist.snippet.title}</p>
-        <br />
-        <a href="/playlists/${playlist.id}" target="_self">
-          <button style="padding: 0.5em; cursor: pointer; font-size: 1em;">view playlist</button>
-        </a>
-        <br />
-        <br />`}>
-        <img alt={playlist.snippet.title} src={playlist.image} />
-        <div class="title">{playlist.snippet.title}</div>
-        <div class="description">{playlist.snippet.description}</div>
-      </a>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src={`${playlist.image}`}>
+            <!-- <span class="card-title">Card Title</span> -->
+          </div>
+          <!-- <div class="card-content">
+            <p>{playlist.snippet.description}</p>
+          </div> -->
+          <div class="card-action">
+            <a href={`/playlists/${playlist.id}`} style="text-overflow: ellipsis; white-space: nowrap; text-transform: none;">{playlist.snippet.title}</a>
+          </div>
+        </div>
+      </div>
     {/each}
   </div>
 </div>
 
 <style>
   .container {
-    width: 900px;
     margin: 0 auto;
-    background: #111;
+    background: #222;
     padding: 1em;
     padding-top: 0;
     color: #ccc;
@@ -167,37 +178,8 @@
     border-top: 0px;
     border-bottom: 0px;
   }
-  .inline-gallery-container {
-    height: 500px;
-  }
-
-  .thumbnails-gallery {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .thumbnails-gallery a {
-    width: calc(91% / 3);
-    margin: 0.5em;
-    overflow: hidden;
+  
+  .card {
     background: #000;
-    border: 5px solid #000;
-    text-decoration: none;
-  }
-  .thumbnails-gallery img {
-    width: 100%;
-  }
-
-  .thumbnails-gallery .title {
-    color: #fff;
-    font-size: 1.5em;
-  }
-
-  .thumbnails-gallery .description {
-    color: #fff;
-  }
-
-  :global(.lg-sub-html) {
-    margin: 0;
-    padding: 0;
   }
 </style>

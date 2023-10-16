@@ -171,8 +171,8 @@
 <div class="container">
 	{#if channel}
 		<a href="/"><img src={channel.snippet.thumbnails.medium.url} alt="" class="avatar"></a>
-		<a href={`https://youtube.com/${channel.snippet.customUrl}`} target="_blank"><button class="navigation">SUBSCRIBE</button></a>
-		<a href="/live-now"><button class="navigation">LIVE NOW</button></a>
+		<a href={`https://youtube.com/${channel.snippet.customUrl}`} target="_blank"><button class="btn right red lighten-2">SUBSCRIBE</button></a>
+		<a href="/channel-guide"><button class="btn white black-text right" style="margin-right: 0.5em">CHANNEL GUIDE</button></a>
 
 		<h4>{channel.snippet.title}</h4>
 		<p>
@@ -221,9 +221,8 @@
 	}
 
 	.container {
-		width: 900px;
 		margin: 0 auto;
-		background: #111;
+		background: #222;
 		padding: 1em;
 		padding-bottom: 0;
 		color: #ccc;
@@ -258,18 +257,11 @@
 		overflow: hidden;
 		display: flex;
 		align-items: center;
-		margin-bottom: -7em;
+		margin-bottom: -6em;
 		border-bottom: 3px solid #333;
 	}
 
 	.banner img {
 		width: 100%;
-	}
-
-	.navigation {
-		float: right;
-		padding: 0.75em;
-		cursor: pointer;
-		margin-left: 0.5em;
 	}
 </style>
