@@ -122,22 +122,25 @@
 
 </script>
 
-<div class="container">
+<div class="container" style="border-bottom: 0;">
   <a href="#" target="_self"><button class="auto-play">AUTO PLAY ({secondsRemaining})</button></a>
   <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
   <a href={`/playlists/${data.playlistId}`} target="_self"><button class="back">PLAYLIST</button></a> 
   <br />
   <br />
-  <iframe 
-    width="900" 
-    height="500" 
-    src={`https://www.youtube.com/embed/${data.videoId}?autoplay=1`} 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen
-  >
-  </iframe>
+</div>
+<iframe 
+  width="100%" 
+  height="750" 
+  src={`https://www.youtube.com/embed/${data.videoId}?autoplay=1`} 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; encrypted-media; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen
+  style="border: 3px solid #333; border-left: 0; border-right: 0; margin-bottom: -5px;"
+>
+</iframe>
+<div class="container" style="border-top: 0;">
   <br />
   <br />
 

@@ -136,7 +136,7 @@
   <div id="inline-gallery-container" class="inline-gallery-container"></div>
   <br />
   <br />
-  <h3>Created playlists</h3>
+  <h3>Created Playlists</h3>
   <div id="thumbnails-gallery" class="thumbnails-gallery">
     {#each playlists as playlist}
       <a href={playlist.image} data-lg-size="1024-800" data-sub-html={`<p style="font-size: 1em;">${playlist.snippet.title}</p>

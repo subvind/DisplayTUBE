@@ -259,6 +259,7 @@
 		display: flex;
 		align-items: center;
 		margin-bottom: -7em;
+		border-bottom: 3px solid #333;
 	}
 
 	.banner img {
