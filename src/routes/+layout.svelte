@@ -1,9 +1,42 @@
 <script lang="ts">
-  import Header from "$lib/header.svelte"
-  import Footer from "$lib/footer.svelte"
+  import { onMount } from "svelte";
+
+  import Header from "$lib/Header.svelte";
+  import Footer from "$lib/Footer.svelte";
+
+	let organization: any;
+	let tubeHostname: any = '';
+
+  onMount(async () => {
+
+    tubeHostname = window.location.hostname
+    if (tubeHostname === 'localhost') {
+      tubeHostname = 'videos.subvind.com'
+    }
+    const response = await fetch(`https://api.subvind.com/organizations/tubeHostname/${tubeHostname}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    });
+
+    if (response.ok) {
+      organization = await response.json();
+    } else {
+      const errorData = await response.json();
+      alert(errorData.error);
+    }
+  })
 </script>
 
-<Header />
+{#if organization}
+  <Header organization={organization} />
+{:else}
+  <nav class="grey darken-3">
+    <div class="nav-wrapper">
+    </div>
+  </nav>
+{/if}
 
 <slot />
 
