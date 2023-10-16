@@ -148,7 +148,7 @@
   frameborder="0" 
   allow="accelerometer; autoplay; encrypted-media; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
   allowfullscreen
-  style="border: 3px solid #333; border-left: 0; border-right: 0; margin-bottom: -6px;"
+  style="border: 3px solid #333; border-left: 0; border-right: 0; margin-bottom: -5px;"
 >
 </iframe>
 <div class="container" style="border-top: 0;">
