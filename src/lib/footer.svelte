@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+
   // Date object
   let date: any = new Date();
   const options: any = {
@@ -14,13 +16,22 @@
   setInterval(() => {
     date = new Date();
   }, 1000)
+
+  let tubeHostname = ''
+  
+  onMount(() => {
+		tubeHostname = window.location.hostname
+		if (tubeHostname === 'localhost') {
+			tubeHostname = 'videos.subvind.com'
+		}
+  })
 </script>
 
 <div class="container">
   <hr>
   <br />
   <span style="float: right;">{date.toLocaleString('en-IN', options)}</span>
-  flowtube.subvind.com © {new Date().getFullYear()}.<br />
+  {tubeHostname} © {new Date().getFullYear()}.<br />
   powered by <a href="https://subvind.com">subvind</a>
   <br />
   <br />
