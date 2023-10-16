@@ -1,6 +1,5 @@
 .DS_Store
-node_modules/*
-!node_modules/lightgallery
+node_modules
 /build
 /.svelte-kit
 /package
