@@ -121,4 +121,9 @@
   .card {
     background: #000;
   }
+
+	.card textarea,
+	.card input {
+		color: #fff;
+	}
 </style>
