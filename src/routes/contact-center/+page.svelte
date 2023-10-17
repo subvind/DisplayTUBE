@@ -51,7 +51,7 @@
 
 
 <div class="container" style="padding: 0; border: 3px solid #444;">
-	<nav class="breadcrumbs lighten-2" style="background: #111; padding: 0 1em;">
+	<nav class="breadcrumbs lighten-2" style="background: #000; padding: 0 1em;">
 		<div class="nav-wrapper">
 			<div class="col s12">
 				<a href="/" class="breadcrumb">Main Channel</a>
