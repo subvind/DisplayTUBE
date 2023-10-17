@@ -14,12 +14,12 @@
   }
 	
 	onMount(async () => {
-		let erpHostname = window.location.hostname
-		if (erpHostname === 'localhost') {
-			erpHostname = 'store.subvind.com'
+		let tubeHostname = window.location.hostname
+		if (tubeHostname === 'localhost') {
+			tubeHostname = 'videos.subvind.com'
 		}
 
-    const responseOrg = await fetch(`https://api.subvind.com/organizations/erpHostname/${erpHostname}`, {
+    const responseOrg = await fetch(`https://api.subvind.com/organizations/tubeHostname/${tubeHostname}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

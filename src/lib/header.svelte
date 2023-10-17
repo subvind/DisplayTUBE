@@ -22,7 +22,7 @@
 
 		let tubeHostname = window.location.hostname
 		if (tubeHostname === 'localhost') {
-			tubeHostname = 'store.subvind.com'
+			tubeHostname = 'videos.subvind.com'
 		}
 		// TODO: playlists
     // const response = await fetch(`https://api.subvind.com/playlists/tubeHostname/${tubeHostname}`, {
@@ -40,14 +40,14 @@
     // }
 
 		setTimeout(() => {
-			let elms = document.querySelectorAll('.tabs')
-			var instance = M.Tabs.init(elms, {});
+			let elems1 = document.querySelectorAll('.tabs')
+			var instance = M.Tabs.init(elems1, {});
 	
-			var elems = document.querySelectorAll('.collapsible');
-			var instances = M.Collapsible.init(elems, {});
+			var elems2 = document.querySelectorAll('.collapsible');
+			var instances = M.Collapsible.init(elems2, {});
 
-			var elems = document.querySelectorAll('.dropdown-trigger');
-			var instances = M.Dropdown.init(elems, {
+			var elems3 = document.querySelectorAll('.dropdown-trigger');
+			var instances = M.Dropdown.init(elems3, {
 				constrainWidth: false,
 			});
 		}, 0)
@@ -155,6 +155,9 @@
 						{/if}
 						{#if organization.etsyShop}
 							<li><a href={`https://www.etsy.com/shop/${organization.etsyShop}`} target="_blank">etsy.com/shop/{organization.etsyShop}</a></li>
+						{/if}
+						{#if organization.youtubeChannel}
+							<li><a href={`https://www.youtube.com/${organization.youtubeChannel}`} target="_blank">youtube.com/{organization.youtubeChannel}</a></li>
 						{/if}
 					{/if}
 				</ul>
