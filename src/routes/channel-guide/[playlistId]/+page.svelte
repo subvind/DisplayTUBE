@@ -27,12 +27,12 @@
 
         console.log('setTimeout', videos)
         setTimeout(() => {
-          // Generate a random index within the range of the playlist length
-          const randomIndex = Math.floor(Math.random() * videos.length);
-          console.log('randomIndex', randomIndex)
+          // // Generate a random index within the range of the playlist length
+          // const randomIndex = Math.floor(Math.random() * videos.length);
+          // console.log('randomIndex', randomIndex)
 
-          // Get the video ID of the random video
-          const videoId = videos[randomIndex].snippet.resourceId.videoId;
+          // Get the video ID of the first video
+          const videoId = videos[0].snippet.resourceId.videoId;
           console.log('random video', videoId)
 
           let url = `/playlists/${data.playlistId}/${videoId}`
@@ -63,10 +63,19 @@
   })
 </script>
 
+<div class="container" style="padding: 0; border: 3px solid #444;">
+	<nav class="breadcrumbs lighten-2" style="background: #000; padding: 0 1em;">
+		<div class="nav-wrapper">
+			<div class="col s12">
+				<a href="/" class="breadcrumb">Main Channel</a>
+        <a href={`/channel-guide`} class="breadcrumb">Channel Guide</a>
+        <a href={`/channel-guide/${data.playlistId}`} class="breadcrumb">5... 4... 3... 2... 1...</a>
+			</div>
+		</div>
+	</nav>
+</div>
 <div class="container" style="overflow: hidden;">
-  <hr>
-  <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
-  <a href="/channel-guide" target="_self"><button class="back">CHANNEL GUIDE</button></a>
+  <br />
   <hr>
   {#if playlist}
     <h3 class="title">{playlist.snippet.title}</h3>

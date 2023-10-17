@@ -84,9 +84,19 @@
   });
 </script>
 
+<div class="container" style="padding: 0; border: 3px solid #444;">
+	<nav class="breadcrumbs lighten-2" style="background: #000; padding: 0 1em;">
+		<div class="nav-wrapper">
+			<div class="col s12">
+				<a href="/" class="breadcrumb">Main Channel</a>
+        {#if playlist}
+				  <a href={`/playlists/${data.playlistId}`} class="breadcrumb">Playlist</a>
+        {/if}
+			</div>
+		</div>
+	</nav>
+</div>
 <div class="container" style="overflow: hidden;">
-  <hr>
-  <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
   <br />
   <hr>
   {#if playlist}

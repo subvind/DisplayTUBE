@@ -11,7 +11,7 @@
   const VIDEO_ID = data.videoId // 'YOUR_VIDEO_ID';
 
   let videoDuration: any = null;
-  let secondsRemaining: any = null;
+  // let secondsRemaining: any = null;
   let videos: any = null;
   let video: any = null;
   let playlist: any = null;
@@ -27,30 +27,30 @@
     second: 'numeric'
   };
 
-  function youtubeDurationToSeconds(duration: string) {
-    // Ensure the duration is in the correct format
-    if (!/^PT(\d+H)?(\d+M)?(\d+S)?$/.test(duration)) {
-      throw new Error('Invalid YouTube duration format');
-    }
+  // function youtubeDurationToSeconds(duration: string) {
+  //   // Ensure the duration is in the correct format
+  //   if (!/^PT(\d+H)?(\d+M)?(\d+S)?$/.test(duration)) {
+  //     throw new Error('Invalid YouTube duration format');
+  //   }
 
-    // Extract hours, minutes, and seconds from the duration
-    const hours = duration.match(/(\d+)H/) || [];
-    const minutes = duration.match(/(\d+)M/) || [];
-    const seconds = duration.match(/(\d+)S/) || [];
+  //   // Extract hours, minutes, and seconds from the duration
+  //   const hours = duration.match(/(\d+)H/) || [];
+  //   const minutes = duration.match(/(\d+)M/) || [];
+  //   const seconds = duration.match(/(\d+)S/) || [];
 
-    // Parse the numeric values and calculate the total duration in seconds
-    const totalSeconds = (parseInt(hours[1]) || 0) * 3600 +
-                        (parseInt(minutes[1]) || 0) * 60 +
-                        (parseInt(seconds[1]) || 0);
+  //   // Parse the numeric values and calculate the total duration in seconds
+  //   const totalSeconds = (parseInt(hours[1]) || 0) * 3600 +
+  //                       (parseInt(minutes[1]) || 0) * 60 +
+  //                       (parseInt(seconds[1]) || 0);
 
-    return totalSeconds;
-  }
+  //   return totalSeconds;
+  // }
 
 
   onMount(() => {
-    setInterval(() => {
-      secondsRemaining = secondsRemaining - 1
-    }, 1000)
+    // setInterval(() => {
+    //   secondsRemaining = secondsRemaining - 1
+    // }, 1000)
 
     async function getVideoInfo() {
       try {
@@ -69,16 +69,16 @@
           /**
            * play the next video
            */
-          setTimeout(() => {
-            // Move to the next video in the playlist
-            videoIndex = (videoIndex + 1) % videos.length;
+          // setTimeout(() => {
+          //   // Move to the next video in the playlist
+          //   videoIndex = (videoIndex + 1) % videos.length;
       
-            // Get the video ID of the next video
-            const videoId = videos[videoIndex].snippet.resourceId.videoId;
+          //   // Get the video ID of the next video
+          //   const videoId = videos[videoIndex].snippet.resourceId.videoId;
       
-            // Redirect the user to the next video in the playlist
-            window.location.href = `/playlists/${data.playlistId}/${videoId}`;
-          }, (secondsRemaining + 5) * 1000)
+          //   // Redirect the user to the next video in the playlist
+          //   window.location.href = `/playlists/${data.playlistId}/${videoId}`;
+          // }, (secondsRemaining + 5) * 1000)
 
           console.log('video', video)
         }
@@ -122,12 +122,25 @@
 
 </script>
 
+<div class="container" style="padding: 0; border: 3px solid #444;">
+	<nav class="breadcrumbs lighten-2" style="background: #000; padding: 0 1em;">
+		<div class="nav-wrapper">
+			<div class="col s12">
+				<a href="/" class="breadcrumb">Main Channel</a>
+        {#if playlist}
+				  <a href={`/playlists/${data.playlistId}`} class="breadcrumb">Playlist</a>
+        {/if}
+        {#if video}
+				  <a href={`/playlists/${data.playlistId}/${data.videoId}`} class="breadcrumb">Video</a>
+        {/if}
+			</div>
+		</div>
+	</nav>
+</div>
 <div class="container" style="border-bottom: 0; overflow: hidden;">
+  <br />
   <hr>
-  <a href="#" target="_self"><button class="auto-play">AUTO PLAY ({secondsRemaining})</button></a>
-  <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
-  <a href={`/playlists/${data.playlistId}`} target="_self"><button class="back">PLAYLIST</button></a> 
-  <hr>
+  <!-- <a href="#" target="_self"><button class="auto-play">AUTO PLAY ({secondsRemaining})</button></a> -->
   {#if playlist}
     <h3 class="title">{playlist.snippet.title}</h3>
     <p class="published">Published: {new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</p>

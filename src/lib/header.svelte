@@ -170,19 +170,33 @@
 </div>
 <div class="container">
 	{#if channel}
-		<a href="/"><img src={channel.snippet.thumbnails.medium.url} alt="" class="avatar"></a>
-		<a href={`https://youtube.com/${channel.snippet.customUrl}`} target="_blank"><button class="btn right red lighten-2">SUBSCRIBE</button></a>
-		<a href="/channel-guide"><button class="btn white black-text right" style="margin-right: 0.5em">CHANNEL GUIDE</button></a>
-
-		<h4>{channel.snippet.title}</h4>
-		<p>
-			Views: <strong>{channel.statistics.viewCount}</strong> •
-			Subscribers: <strong>{channel.statistics.subscriberCount}</strong> • 
-			Videos: <strong>{channel.statistics.videoCount}</strong>
-		</p>
-		<p>
-			{channel.brandingSettings.channel.description}
-		</p>
+		<div class="row">
+			<div class="col s12">
+				<a href="/"><img src={channel.snippet.thumbnails.medium.url} alt="" class="avatar"></a>
+				<div class="hide-on-med-and-down">
+					<a href={`https://youtube.com/${channel.snippet.customUrl}`} target="_blank"><button class="btn right red lighten-2">SUBSCRIBE</button></a>
+					<a href="/channel-guide"><button class="btn white black-text right" style="margin-right: 0.5em">CHANNEL GUIDE</button></a>
+				</div>
+		
+				<h4>{channel.snippet.title}</h4>
+				<p>
+					Views: <strong>{channel.statistics.viewCount}</strong> •
+					Subscribers: <strong>{channel.statistics.subscriberCount}</strong> • 
+					Videos: <strong>{channel.statistics.videoCount}</strong>
+				</p>
+				<p>
+					{channel.brandingSettings.channel.description}
+				</p>
+			</div>
+		</div>
+		<div class="row hide-on-large-only">
+			<div class="col s6">
+				<a href={`https://youtube.com/${channel.snippet.customUrl}`} target="_blank"><button class="btn red lighten-2" style="width: 100%;">SUBSCRIBE</button></a>
+			</div>
+			<div class="col s6">
+				<a href="/channel-guide"><button class="btn white black-text" style="width: 100%">CHANNEL GUIDE</button></a>
+			</div>
+		</div>
 	{/if}
 </div>
 
@@ -222,7 +236,7 @@
 
 	.container {
 		margin: 0 auto;
-		background: #222;
+		background: #333;
 		padding: 1em;
 		padding-bottom: 0;
 		color: #ccc;
@@ -247,7 +261,6 @@
 		border: 3px solid #333;
 		border-radius: 10em;
 		margin-right: 1em;
-		margin-bottom: 1em;
 	}
 
 	.banner {

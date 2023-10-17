@@ -28,10 +28,17 @@
   })
 </script>
 
+<div class="container" style="padding: 0; border: 3px solid #444;">
+	<nav class="breadcrumbs lighten-2" style="background: #000; padding: 0 1em;">
+		<div class="nav-wrapper">
+			<div class="col s12">
+				<a href="/" class="breadcrumb">Main Channel</a>
+        <a href={`/channel-guide`} class="breadcrumb">Channel Guide</a>
+			</div>
+		</div>
+	</nav>
+</div>
 <div class="container" style="overflow: hidden;">
-  <hr>
-  <a href="/" target="_self"><button class="back">MAIN CHANNEL</button></a>
-  <hr>
   <br />
   {#if playlists}
     <table border="1">
@@ -43,7 +50,7 @@
       {#each playlists as playlist}
         <tr class="row">
           <td>
-            <a href={`/channel-guide/${playlist.id}`} target="_self"><button class="watch">{playlist.snippet.title}</button></a>
+            <a href={`/playlists/${playlist.id}`}><button class="watch">{playlist.snippet.title}</button></a>
           </td>
           <td>{playlist.snippet.description}</td>
           <td>{new Date(playlist.snippet.publishedAt).toLocaleString('en-IN', options)}</td>
