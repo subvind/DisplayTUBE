@@ -26,6 +26,7 @@
 	},
 	"dependencies": {
 		"lightgallery": "^2.7.1",
-		"node-fetch": "^3.3.1"
+		"node-fetch": "^3.3.1",
+		"subvind-components": "^0.0.2"
 	}
 }
