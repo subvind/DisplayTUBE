@@ -27,6 +27,8 @@
     second: 'numeric'
   };
 
+	let organization: any;
+
   // function youtubeDurationToSeconds(duration: string) {
   //   // Ensure the duration is in the correct format
   //   if (!/^PT(\d+H)?(\d+M)?(\d+S)?$/.test(duration)) {
@@ -47,7 +49,7 @@
   // }
 
 
-  onMount(() => {
+  onMount(async () => {
     // setInterval(() => {
     //   secondsRemaining = secondsRemaining - 1
     // }, 1000)
@@ -64,7 +66,7 @@
         if (result.items && result.items.length > 0) {
           video = result.items[0]
           videoDuration = result.items[0].contentDetails.duration;
-          secondsRemaining = youtubeDurationToSeconds(videoDuration)
+          // secondsRemaining = youtubeDurationToSeconds(videoDuration)
 
           /**
            * play the next video
@@ -118,6 +120,28 @@
         return [];
       });
     
+    let tubeHostname = window.location.hostname
+    if (tubeHostname === 'localhost') {
+      tubeHostname = 'videos.subvind.com'
+    }
+    const response = await fetch(`https://api.subvind.com/organizations/tubeHostname/${tubeHostname}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    });
+
+    if (response.ok) {
+      organization = await response.json();
+    } else {
+      const errorData = await response.json();
+      alert(errorData.error);
+    }
+    
+		// @ts-ignore
+		gtag('event', 'pageview', {
+			'organizationId': organization.id, // Replace with the actual tenantId
+		});
   })
 
 </script>

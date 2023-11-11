@@ -10,7 +10,8 @@
 
   let uploads: any = [];
   let playlists: any = [];
-  let featuredPlaylistId = 'PLtoxeJ0aVT670BoNcI9x70HeKixrgoQ2Y'
+  let featuredPlaylistId = 'PLtoxeJ0aVT670BoNcI9x70HeKixrgoQ2Y';
+	let organization: any;
       
   function loadInline (items: any) {
     let val: HTMLElement = document.getElementById('inline-gallery-container') || Object.create(HTMLElement)
@@ -129,6 +130,28 @@
         return [];
       });
 
+    let tubeHostname = window.location.hostname
+    if (tubeHostname === 'localhost') {
+      tubeHostname = 'videos.subvind.com'
+    }
+    const response = await fetch(`https://api.subvind.com/organizations/tubeHostname/${tubeHostname}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    });
+
+    if (response.ok) {
+      organization = await response.json();
+    } else {
+      const errorData = await response.json();
+      alert(errorData.error);
+    }
+    
+		// @ts-ignore
+		gtag('event', 'pageview', {
+			'organizationId': organization.id, // Replace with the actual tenantId
+		});
   });
 </script>
 

@@ -12,6 +12,7 @@
   export let data: any;
   let videos: any = [];
   let playlist: any;
+	let organization: any;
       
   const options: any = {
     weekday: 'long',
@@ -81,6 +82,29 @@
         console.log(error);
         return [];
       });
+
+    let tubeHostname = window.location.hostname
+    if (tubeHostname === 'localhost') {
+      tubeHostname = 'videos.subvind.com'
+    }
+    const response = await fetch(`https://api.subvind.com/organizations/tubeHostname/${tubeHostname}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    });
+
+    if (response.ok) {
+      organization = await response.json();
+    } else {
+      const errorData = await response.json();
+      alert(errorData.error);
+    }
+    
+		// @ts-ignore
+		gtag('event', 'pageview', {
+			'organizationId': organization.id, // Replace with the actual tenantId
+		});
   });
 </script>
 
